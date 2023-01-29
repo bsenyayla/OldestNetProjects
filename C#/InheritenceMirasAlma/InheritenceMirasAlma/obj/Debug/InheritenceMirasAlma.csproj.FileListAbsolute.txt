@@ -1,0 +1,9 @@
+d:\Users\dtbsenyayla\Desktop\ccc\InheritenceMirasAlma\InheritenceMirasAlma\bin\Debug\InheritenceMirasAlma.exe.config
+d:\Users\dtbsenyayla\Desktop\ccc\InheritenceMirasAlma\InheritenceMirasAlma\bin\Debug\InheritenceMirasAlma.exe
+d:\Users\dtbsenyayla\Desktop\ccc\InheritenceMirasAlma\InheritenceMirasAlma\bin\Debug\InheritenceMirasAlma.pdb
+d:\Users\dtbsenyayla\Desktop\ccc\InheritenceMirasAlma\InheritenceMirasAlma\obj\Debug\InheritenceMirasAlma.csprojResolveAssemblyReference.cache
+d:\Users\dtbsenyayla\Desktop\ccc\InheritenceMirasAlma\InheritenceMirasAlma\obj\Debug\InheritenceMirasAlma.exe
+d:\Users\dtbsenyayla\Desktop\ccc\InheritenceMirasAlma\InheritenceMirasAlma\obj\Debug\InheritenceMirasAlma.pdb
+G:\C#\InheritenceMirasAlma\InheritenceMirasAlma\bin\Debug\InheritenceMirasAlma.exe.config
+G:\C#\InheritenceMirasAlma\InheritenceMirasAlma\obj\Debug\InheritenceMirasAlma.exe
+G:\C#\InheritenceMirasAlma\InheritenceMirasAlma\obj\Debug\InheritenceMirasAlma.pdb

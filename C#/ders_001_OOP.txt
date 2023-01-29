@@ -1,0 +1,10 @@
+Class
+
+Kapsülleme:public private eriþim belirteçleri kodun gereksiz kýsýmlarýný gizler
+Bu özellik kullanýlan dilin kullanýcý tarafýndan gereksiz bulunan kýsýmlarýný saklar. Kapsüllemenin bir diðer önemli iþi ise veri korumasýdýr. 
+
+Kalýtým:
+Kalýtým sýnýflarýn üzerine yeni sýnýflar tanýmalamak ve bunlara izin verme yetkisi olarak ifade edebiliriz.
+
+Çok Biçimlilik:
+Çok biçimcilik farklý nesnelerin ayný olaya farklý farklý þekillerde yanýt vermesidir. 

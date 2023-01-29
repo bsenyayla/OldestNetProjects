@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Kronus.Server.BusinessFlow" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kronus.Server.BusinessFlow" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="ComboFlow.ComboType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="AracMarka" />
+      <xs:enumeration value="AracModel" />
+      <xs:enumeration value="Banka" />
+      <xs:enumeration value="CalismaSekli" />
+      <xs:enumeration value="Cinsiyet" />
+      <xs:enumeration value="FaturaTipi" />
+      <xs:enumeration value="OdemeTipi" />
+      <xs:enumeration value="OtomobilCinsi" />
+      <xs:enumeration value="ProjeTipi" />
+      <xs:enumeration value="Renk" />
+      <xs:enumeration value="Tedarikci" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ComboFlow.ComboType" nillable="true" type="tns:ComboFlow.ComboType" />
+</xs:schema>

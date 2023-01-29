@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:21318/CrmService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfComboItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ComboItem" nillable="true" type="tns:ComboItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfComboItem" nillable="true" type="tns:ArrayOfComboItem" />
+  <xs:complexType name="ComboItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Deger" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ComboItem" nillable="true" type="tns:ComboItem" />
+  <xs:complexType name="Personel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Adres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BirinciYonetici" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="BolumId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="CalismaSekli" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CikisTarihi" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Cinsiyet" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmanId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="DogumTarihi" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DomainName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmailIs" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirmaId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="FirmaLokasyonId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="GirisTarihi" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GorevId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="GsmNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IkinciYonetici" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MedeniHali" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OdemeTipi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProfilFoto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TcKimlikNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TelefonNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TelefonNoIs" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Personel" nillable="true" type="tns:Personel" />
+  <xs:complexType name="ArrayOfPersonel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Personel" nillable="true" type="tns:Personel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonel" nillable="true" type="tns:ArrayOfPersonel" />
+  <xs:complexType name="ReportParams.PersonelShortFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Departman" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="DomainName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TcKimlikNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParams.PersonelShortFilter" nillable="true" type="tns:ReportParams.PersonelShortFilter" />
+  <xs:complexType name="ArrayOfPersonelShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PersonelShort" nillable="true" type="tns:PersonelShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonelShort" nillable="true" type="tns:ArrayOfPersonelShort" />
+  <xs:complexType name="PersonelShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bolum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Departman" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Durum" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Firma" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirmaLokasyon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gorev" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TcKimlikNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersonelShort" nillable="true" type="tns:PersonelShort" />
+  <xs:complexType name="EhliyetS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BelgeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Img_1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Img_2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PersonelId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Sinif" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VerilisIl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VerilisIlce" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VerilisTarihi" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EhliyetS" nillable="true" type="tns:EhliyetS" />
+</xs:schema>

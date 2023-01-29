@@ -1,0 +1,13 @@
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\bin\Release\MemCached.exe.config
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\bin\Release\MemCached.exe
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\bin\Release\MemCached.pdb
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\bin\Release\Enyim.Caching.dll
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\bin\Release\MySql.Data.dll
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\bin\Release\Enyim.Caching.xml
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\obj\Release\MemCached.csprojAssemblyReference.cache
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\obj\Release\MemCached.Form1.resources
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\obj\Release\MemCached.Properties.Resources.resources
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\obj\Release\MemCached.csproj.GenerateResource.cache
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\obj\Release\MemCached.csproj.CopyComplete
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\obj\Release\MemCached.exe
+C:\Users\bahadir.senyayla\source\repos\MemCached\MemCached\obj\Release\MemCached.pdb

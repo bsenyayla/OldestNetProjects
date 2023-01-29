@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ReportParams.ProjeShortFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipi" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParams.ProjeShortFilter" nillable="true" type="tns:ReportParams.ProjeShortFilter" />
+  <xs:complexType name="ArrayOfProjeShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProjeShort" nillable="true" type="tns:ProjeShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProjeShort" nillable="true" type="tns:ArrayOfProjeShort" />
+  <xs:complexType name="ProjeShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AracSayisi" type="xs:int" />
+      <xs:element minOccurs="0" name="GuzergahSayisi" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Kodu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProjeSorumlusu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YolcuSayisi" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProjeShort" nillable="true" type="tns:ProjeShort" />
+  <xs:complexType name="ProjeS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AracBedelsizSeferSayisi" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Bolge" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FaturaGunu" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="FaturaHizmetKodu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FaturaTipi" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="FirmaYetkiliEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirmaYetkiliFax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirmaYetkiliTel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirmaYetkilisi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Grup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HostesHakEdisTutari" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IskontoOrani" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MusteriTemsilcisi" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="ProjeLideri" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="Sektor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sirket" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SoforHakEdisTutari" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SozlesmeBaslangicTarihi" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SozlesmeBitisTarihi" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SozlesmeyiYapan" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="Tipi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WebSitesi" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProjeS" nillable="true" type="tns:ProjeS" />
+  <xs:complexType name="ArrayOfComboItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ComboItem" nillable="true" type="tns:ComboItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfComboItem" nillable="true" type="tns:ArrayOfComboItem" />
+  <xs:complexType name="ComboItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Deger" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ComboItem" nillable="true" type="tns:ComboItem" />
+  <xs:complexType name="ReportParams.GuzergahMainShortFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ProjeId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="ProjeTipi" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParams.GuzergahMainShortFilter" nillable="true" type="tns:ReportParams.GuzergahMainShortFilter" />
+  <xs:complexType name="ArrayOfGuzergahMainShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GuzergahMainShort" nillable="true" type="tns:GuzergahMainShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGuzergahMainShort" nillable="true" type="tns:ArrayOfGuzergahMainShort" />
+  <xs:complexType name="GuzergahMainShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AltGuzergahSayisi" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Km" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MusteriFiyat" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ProjeAd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProjeId" type="ser:guid" />
+      <xs:element minOccurs="0" name="TedarikFiyat" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GuzergahMainShort" nillable="true" type="tns:GuzergahMainShort" />
+  <xs:complexType name="GuzergahMainS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Km" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MusteriFiyat" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ProjeId" type="ser:guid" />
+      <xs:element minOccurs="0" name="TedarikFiyat" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GuzergahMainS" nillable="true" type="tns:GuzergahMainS" />
+  <xs:complexType name="ReportParams.GuzergahShortFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GuzergahMainId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParams.GuzergahShortFilter" nillable="true" type="tns:ReportParams.GuzergahShortFilter" />
+  <xs:complexType name="ArrayOfGuzergahShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GuzergahShort" nillable="true" type="tns:GuzergahShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGuzergahShort" nillable="true" type="tns:ArrayOfGuzergahShort" />
+  <xs:complexType name="GuzergahShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Arac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GuzergahMainId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Hostes" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="KisiSayisi" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sofor" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GuzergahShort" nillable="true" type="tns:GuzergahShort" />
+  <xs:complexType name="GuzergahS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Arac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AracId" type="xs:int" />
+      <xs:element minOccurs="0" name="GuzergahMainAd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GuzergahMainId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Hostes" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HostesId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="KisiSayisi" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProjeAd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sofor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SoforId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GuzergahS" nillable="true" type="tns:GuzergahS" />
+  <xs:complexType name="ReportParams.AracShortFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tedarikci" nillable="true" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParams.AracShortFilter" nillable="true" type="tns:ReportParams.AracShortFilter" />
+  <xs:complexType name="ArrayOfAracShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AracShort" nillable="true" type="tns:AracShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAracShort" nillable="true" type="tns:ArrayOfAracShort" />
+  <xs:complexType name="AracShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Marka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Model" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tedarikci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YolcuKapasitesi" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AracShort" nillable="true" type="tns:AracShort" />
+  <xs:complexType name="AracS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AracSahibiAd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AracSahibiSoyad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cinsi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GpsCihazId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IstiapHaddi" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="LogoKodu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Marka" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ModelYili" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MotorGucu" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MotorNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MuayeneTarihi" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="NetAgirlik" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Renk" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SasiNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SilindirHacmi" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TedarikciId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="Tipi" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="YolcuKapasitesi" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AracS" nillable="true" type="tns:AracS" />
+  <xs:complexType name="ReportParams.TedarikciShortFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CariAd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="YetkiliKisi" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParams.TedarikciShortFilter" nillable="true" type="tns:ReportParams.TedarikciShortFilter" />
+  <xs:complexType name="ArrayOfTedarikciShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TedarikciShort" nillable="true" type="tns:TedarikciShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTedarikciShort" nillable="true" type="tns:ArrayOfTedarikciShort" />
+  <xs:complexType name="TedarikciShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CariAd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CariKod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gsm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TedarikciShort" nillable="true" type="tns:TedarikciShort" />
+  <xs:complexType name="TedarikciS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Adres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Banka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CariAd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CariKod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gsm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HesapNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IBAN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Sube" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VergiDairesi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VergiNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YetkiliKisi" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TedarikciS" nillable="true" type="tns:TedarikciS" />
+</xs:schema>

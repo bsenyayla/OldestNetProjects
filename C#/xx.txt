@@ -1,0 +1,23 @@
+delegate
+evetnt
+
+Access Modifiers – Eriþim Belirleyiciler
+sealed
+solid prensipler
+oop genel yapý
+
+
+public
+protected
+private 
+
+attribuate
+interface
+abstract
+
+
+
+Struct : belli grupdaki deðerleri tutumak için kullanýlýr. bunun haricinde özel bir hikayesi yotur .referans deðil deðer tipindedir.
+
+Properties (özellikler) , sýnýfýn içindeki deðiþkenler set veya get edilirken bazý özel iþlemler yapmamýzý saðlayan küçük kod parçacýklarý olarak tanýmlanýr. 
+

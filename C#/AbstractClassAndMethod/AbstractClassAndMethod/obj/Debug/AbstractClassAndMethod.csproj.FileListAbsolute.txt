@@ -1,0 +1,6 @@
+c:\users\comp1\documents\visual studio 2017\Projects\AbstractClassAndMethod\AbstractClassAndMethod\bin\Debug\AbstractClassAndMethod.exe.config
+c:\users\comp1\documents\visual studio 2017\Projects\AbstractClassAndMethod\AbstractClassAndMethod\bin\Debug\AbstractClassAndMethod.exe
+c:\users\comp1\documents\visual studio 2017\Projects\AbstractClassAndMethod\AbstractClassAndMethod\bin\Debug\AbstractClassAndMethod.pdb
+c:\users\comp1\documents\visual studio 2017\Projects\AbstractClassAndMethod\AbstractClassAndMethod\obj\Debug\AbstractClassAndMethod.csprojResolveAssemblyReference.cache
+c:\users\comp1\documents\visual studio 2017\Projects\AbstractClassAndMethod\AbstractClassAndMethod\obj\Debug\AbstractClassAndMethod.exe
+c:\users\comp1\documents\visual studio 2017\Projects\AbstractClassAndMethod\AbstractClassAndMethod\obj\Debug\AbstractClassAndMethod.pdb

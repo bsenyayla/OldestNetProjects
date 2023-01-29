@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Fusion\KronusServer</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Kronus.Server.BusinessFlow.dll">
+      <publishTime>08/28/2014 16:47:22</publishTime>
+    </File>
+    <File Include="bin/Kronus.Server.Entity.dll">
+      <publishTime>08/28/2014 13:25:34</publishTime>
+    </File>
+    <File Include="bin/Kronus.Server.Service.dll">
+      <publishTime>08/28/2014 16:47:22</publishTime>
+    </File>
+    <File Include="CoreService.svc">
+      <publishTime>08/08/2014 10:04:44</publishTime>
+    </File>
+    <File Include="CrmService.svc">
+      <publishTime>08/10/2014 02:45:25</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/28/2014 16:47:23</publishTime>
+    </File>
+    <File Include="SrvService.svc">
+      <publishTime>08/17/2014 02:04:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/28/2014 16:41:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

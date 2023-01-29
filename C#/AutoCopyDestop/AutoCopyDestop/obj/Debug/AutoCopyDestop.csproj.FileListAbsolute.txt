@@ -1,0 +1,6 @@
+H:\Education\C#\AutoCopyDestop\AutoCopyDestop\bin\Debug\AutoCopyDestop.exe.config
+H:\Education\C#\AutoCopyDestop\AutoCopyDestop\bin\Debug\AutoCopyDestop.exe
+H:\Education\C#\AutoCopyDestop\AutoCopyDestop\bin\Debug\AutoCopyDestop.pdb
+H:\Education\C#\AutoCopyDestop\AutoCopyDestop\obj\Debug\AutoCopyDestop.csprojResolveAssemblyReference.cache
+H:\Education\C#\AutoCopyDestop\AutoCopyDestop\obj\Debug\AutoCopyDestop.exe
+H:\Education\C#\AutoCopyDestop\AutoCopyDestop\obj\Debug\AutoCopyDestop.pdb

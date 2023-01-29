@@ -1,0 +1,14 @@
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\bin\Release\UI.exe.config
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.csprojResolveAssemblyReference.cache
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.Properties.Resources.resources
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.SifreFrm.resources
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.csproj.GenerateResource.Cache
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\bin\Release\UI.exe.manifest
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\bin\Release\UI.application
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\bin\Release\UI.exe
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\bin\Release\UI.pdb
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.TrustInfo.xml
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.exe.manifest
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.application
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.exe
+C:\Users\BAHADIR\Desktop\repos\repos\Sifre\UI\obj\Release\UI.pdb

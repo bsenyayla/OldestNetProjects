@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbCrmModelStoreContainer" CdmEntityContainer="dbCrmEntities">
+    <EntitySetMapping Name="CrmBolum">
+      <EntityTypeMapping TypeName="dbCrmModel.CrmBolum">
+        <MappingFragment StoreEntitySet="CrmBolum">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+          <ScalarProperty Name="BolumEmailGrup" ColumnName="BolumEmailGrup" />
+          <ScalarProperty Name="DepartmanId" ColumnName="DepartmanId" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CrmDepartman">
+      <EntityTypeMapping TypeName="dbCrmModel.CrmDepartman">
+        <MappingFragment StoreEntitySet="CrmDepartman">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CrmFirma">
+      <EntityTypeMapping TypeName="dbCrmModel.CrmFirma">
+        <MappingFragment StoreEntitySet="CrmFirma">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+          <ScalarProperty Name="CariKod" ColumnName="CariKod" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CrmFirmaLokasyon">
+      <EntityTypeMapping TypeName="dbCrmModel.CrmFirmaLokasyon">
+        <MappingFragment StoreEntitySet="CrmFirmaLokasyon">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+          <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+          <ScalarProperty Name="Il" ColumnName="Il" />
+          <ScalarProperty Name="FirmaId" ColumnName="FirmaId" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CrmGorev">
+      <EntityTypeMapping TypeName="dbCrmModel.CrmGorev">
+        <MappingFragment StoreEntitySet="CrmGorev">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrwYetkiGrup">
+      <EntityTypeMapping TypeName="dbCrmModel.FrwYetkiGrup">
+        <MappingFragment StoreEntitySet="FrwYetkiGrup">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrwYetkiGrupKullanici">
+      <EntityTypeMapping TypeName="dbCrmModel.FrwYetkiGrupKullanici">
+        <MappingFragment StoreEntitySet="FrwYetkiGrupKullanici">
+          <ScalarProperty Name="DomainName" ColumnName="DomainName" />
+          <ScalarProperty Name="YetkiGrupId" ColumnName="YetkiGrupId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrwYetkiGrupMenu">
+      <EntityTypeMapping TypeName="dbCrmModel.FrwYetkiGrupMenu">
+        <MappingFragment StoreEntitySet="FrwYetkiGrupMenu">
+          <ScalarProperty Name="Acilklama" ColumnName="Acilklama" />
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="YetkiGrupId" ColumnName="YetkiGrupId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SrvTable">
+      <EntityTypeMapping TypeName="dbCrmModel.SrvTable">
+        <MappingFragment StoreEntitySet="SrvTable">
+          <ScalarProperty Name="sdf" ColumnName="sdf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrwGeneralContraints">
+      <EntityTypeMapping TypeName="dbCrmModel.FrwGeneralContraint">
+        <MappingFragment StoreEntitySet="FrwGeneralContraint">
+          <ScalarProperty Name="Deger" ColumnName="Deger" />
+          <ScalarProperty Name="Enum" ColumnName="Enum" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrwGeneralValues">
+      <EntityTypeMapping TypeName="dbCrmModel.FrwGeneralValue">
+        <MappingFragment StoreEntitySet="FrwGeneralValues">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="UstId" ColumnName="UstId" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SrvPersonels">
+      <EntityTypeMapping TypeName="dbCrmModel.SrvPersonel">
+        <MappingFragment StoreEntitySet="SrvPersonel">
+          <ScalarProperty Name="Lo" ColumnName="Lo" />
+          <ScalarProperty Name="La" ColumnName="La" />
+          <ScalarProperty Name="Uyruk" ColumnName="Uyruk" />
+          <ScalarProperty Name="MedeniHali" ColumnName="MedeniHali" />
+          <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+          <ScalarProperty Name="Il" ColumnName="Il" />
+          <ScalarProperty Name="KanGrubu" ColumnName="KanGrubu" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Gsm" ColumnName="Gsm" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DogumYeri" ColumnName="DogumYeri" />
+          <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+          <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ProjeId" ColumnName="ProjeId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SrvProjes">
+      <EntityTypeMapping TypeName="dbCrmModel.SrvProje">
+        <MappingFragment StoreEntitySet="SrvProje">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="AracBedelsizSeferSayisi" ColumnName="AracBedelsizSeferSayisi" />
+          <ScalarProperty Name="SoforHakEdisTutari" ColumnName="SoforHakEdisTutari" />
+          <ScalarProperty Name="HostesHakEdisTutari" ColumnName="HostesHakEdisTutari" />
+          <ScalarProperty Name="MusteriTemsilcisi" ColumnName="MusteriTemsilcisi" />
+          <ScalarProperty Name="FaturaTipi" ColumnName="FaturaTipi" />
+          <ScalarProperty Name="FaturaGunu" ColumnName="FaturaGunu" />
+          <ScalarProperty Name="IskontoOrani" ColumnName="IskontoOrani" />
+          <ScalarProperty Name="FaturaHizmetKodu" ColumnName="FaturaHizmetKodu" />
+          <ScalarProperty Name="SozlesmeBitisTarihi" ColumnName="SozlesmeBitisTarihi" />
+          <ScalarProperty Name="SozlesmeBaslangicTarihi" ColumnName="SozlesmeBaslangicTarihi" />
+          <ScalarProperty Name="SozlesmeyiYapan" ColumnName="SozlesmeyiYapan" />
+          <ScalarProperty Name="Bolge" ColumnName="Bolge" />
+          <ScalarProperty Name="Sektor" ColumnName="Sektor" />
+          <ScalarProperty Name="Grup" ColumnName="Grup" />
+          <ScalarProperty Name="Sirket" ColumnName="Sirket" />
+          <ScalarProperty Name="WebSitesi" ColumnName="WebSitesi" />
+          <ScalarProperty Name="FirmaYetkiliFax" ColumnName="FirmaYetkiliFax" />
+          <ScalarProperty Name="FirmaYetkiliTel" ColumnName="FirmaYetkiliTel" />
+          <ScalarProperty Name="FirmaYetkiliEmail" ColumnName="FirmaYetkiliEmail" />
+          <ScalarProperty Name="FirmaYetkilisi" ColumnName="FirmaYetkilisi" />
+          <ScalarProperty Name="ProjeLideri" ColumnName="ProjeLideri" />
+          <ScalarProperty Name="Tipi" ColumnName="Tipi" />
+          <ScalarProperty Name="Kod" ColumnName="Kod" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SrvGuzergahMains">
+      <EntityTypeMapping TypeName="dbCrmModel.SrvGuzergahMain">
+        <MappingFragment StoreEntitySet="SrvGuzergahMain">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="TedarikFiyat" ColumnName="TedarikFiyat" />
+          <ScalarProperty Name="MusteriFiyat" ColumnName="MusteriFiyat" />
+          <ScalarProperty Name="Km" ColumnName="Km" />
+          <ScalarProperty Name="Kod" ColumnName="Kod" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ProjeId" ColumnName="ProjeId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SrvGuzergahs">
+      <EntityTypeMapping TypeName="dbCrmModel.SrvGuzergah">
+        <MappingFragment StoreEntitySet="SrvGuzergah">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Hostes" ColumnName="Hostes" />
+          <ScalarProperty Name="Sofor" ColumnName="Sofor" />
+          <ScalarProperty Name="Arac" ColumnName="Arac" />
+          <ScalarProperty Name="KisiSayisi" ColumnName="KisiSayisi" />
+          <ScalarProperty Name="Kod" ColumnName="Kod" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="GuzergahMainId" ColumnName="GuzergahMainId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SrvTedarikcis">
+      <EntityTypeMapping TypeName="dbCrmModel.SrvTedarikci">
+        <MappingFragment StoreEntitySet="SrvTedarikci">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Gsm" ColumnName="Gsm" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+          <ScalarProperty Name="HesapNo" ColumnName="HesapNo" />
+          <ScalarProperty Name="Sube" ColumnName="Sube" />
+          <ScalarProperty Name="Banka" ColumnName="Banka" />
+          <ScalarProperty Name="VergiNo" ColumnName="VergiNo" />
+          <ScalarProperty Name="VergiDairesi" ColumnName="VergiDairesi" />
+          <ScalarProperty Name="YetkiliKisi" ColumnName="YetkiliKisi" />
+          <ScalarProperty Name="CariAd" ColumnName="CariAd" />
+          <ScalarProperty Name="CariKod" ColumnName="CariKod" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GnlMarkas">
+      <EntityTypeMapping TypeName="dbCrmModel.GnlMarka">
+        <MappingFragment StoreEntitySet="GnlMarka">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GnlModels">
+      <EntityTypeMapping TypeName="dbCrmModel.GnlModel">
+        <MappingFragment StoreEntitySet="GnlModel">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="MarkaId" ColumnName="MarkaId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SrvAracs">
+      <EntityTypeMapping TypeName="dbCrmModel.SrvArac">
+        <MappingFragment StoreEntitySet="SrvArac">
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MuayeneTarihi" ColumnName="MuayeneTarihi" />
+          <ScalarProperty Name="SilindirHacmi" ColumnName="SilindirHacmi" />
+          <ScalarProperty Name="MotorGucu" ColumnName="MotorGucu" />
+          <ScalarProperty Name="IstiapHaddi" ColumnName="IstiapHaddi" />
+          <ScalarProperty Name="NetAgirlik" ColumnName="NetAgirlik" />
+          <ScalarProperty Name="SasiNo" ColumnName="SasiNo" />
+          <ScalarProperty Name="MotorNo" ColumnName="MotorNo" />
+          <ScalarProperty Name="Tipi" ColumnName="Tipi" />
+          <ScalarProperty Name="Cinsi" ColumnName="Cinsi" />
+          <ScalarProperty Name="AracSahibiSoyad" ColumnName="AracSahibiSoyad" />
+          <ScalarProperty Name="AracSahibiAd" ColumnName="AracSahibiAd" />
+          <ScalarProperty Name="GpsCihazId" ColumnName="GpsCihazId" />
+          <ScalarProperty Name="TedarikciId" ColumnName="TedarikciId" />
+          <ScalarProperty Name="Renk" ColumnName="Renk" />
+          <ScalarProperty Name="ModelYili" ColumnName="ModelYili" />
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+          <ScalarProperty Name="YolcuKapasitesi" ColumnName="YolcuKapasitesi" />
+          <ScalarProperty Name="LogoKodu" ColumnName="LogoKodu" />
+          <ScalarProperty Name="Plaka" ColumnName="Plaka" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GnlBankas">
+      <EntityTypeMapping TypeName="dbCrmModel.GnlBanka">
+        <MappingFragment StoreEntitySet="GnlBanka">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CrmPersonel">
+      <EntityTypeMapping TypeName="dbCrmModel.CrmPersonel">
+        <MappingFragment StoreEntitySet="CrmPersonel">
+          <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+          <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Img_2" ColumnName="Img_2" />
+          <ScalarProperty Name="Img_1" ColumnName="Img_1" />
+          <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+          <ScalarProperty Name="OdemeTipi" ColumnName="OdemeTipi" />
+          <ScalarProperty Name="CalismaSekli" ColumnName="CalismaSekli" />
+          <ScalarProperty Name="EhliyetId" ColumnName="EhliyetId" />
+          <ScalarProperty Name="FirmaLokasyonId" ColumnName="FirmaLokasyonId" />
+          <ScalarProperty Name="FirmaId" ColumnName="FirmaId" />
+          <ScalarProperty Name="GorevId" ColumnName="GorevId" />
+          <ScalarProperty Name="BolumId" ColumnName="BolumId" />
+          <ScalarProperty Name="DepartmanId" ColumnName="DepartmanId" />
+          <ScalarProperty Name="IkinciYonetici" ColumnName="IkinciYonetici" />
+          <ScalarProperty Name="BirinciYonetici" ColumnName="BirinciYonetici" />
+          <ScalarProperty Name="CikisTarihi" ColumnName="CikisTarihi" />
+          <ScalarProperty Name="GirisTarihi" ColumnName="GirisTarihi" />
+          <ScalarProperty Name="ProfilFoto" ColumnName="ProfilFoto" />
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="TelefonNoIs" ColumnName="TelefonNoIs" />
+          <ScalarProperty Name="GsmNo" ColumnName="GsmNo" />
+          <ScalarProperty Name="TelefonNo" ColumnName="TelefonNo" />
+          <ScalarProperty Name="EmailIs" ColumnName="EmailIs" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="MedeniHali" ColumnName="MedeniHali" />
+          <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+          <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="CariKod" ColumnName="CariKod" />
+          <ScalarProperty Name="DomainName" ColumnName="DomainName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

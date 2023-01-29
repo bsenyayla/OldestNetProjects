@@ -1,0 +1,4 @@
+H:\Education\C#\EnterpriseArchitect\Arch.Core\bin\Debug\Arch.Core.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Core\bin\Debug\Arch.Core.pdb
+H:\Education\C#\EnterpriseArchitect\Arch.Core\obj\Debug\Arch.Core.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Core\obj\Debug\Arch.Core.pdb

@@ -1,0 +1,9 @@
+d:\Users\dtbsenyayla\Desktop\ccc\Interface\Interface\bin\Debug\Interface.exe.config
+d:\Users\dtbsenyayla\Desktop\ccc\Interface\Interface\bin\Debug\Interface.exe
+d:\Users\dtbsenyayla\Desktop\ccc\Interface\Interface\bin\Debug\Interface.pdb
+d:\Users\dtbsenyayla\Desktop\ccc\Interface\Interface\obj\Debug\Interface.exe
+d:\Users\dtbsenyayla\Desktop\ccc\Interface\Interface\obj\Debug\Interface.pdb
+d:\Users\dtbsenyayla\Desktop\ccc\Interface\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+G:\C#\Interface\Interface\bin\Debug\Interface.exe.config
+G:\C#\Interface\Interface\obj\Debug\Interface.exe
+G:\C#\Interface\Interface\obj\Debug\Interface.pdb

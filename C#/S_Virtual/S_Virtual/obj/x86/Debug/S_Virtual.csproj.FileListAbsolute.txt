@@ -1,0 +1,23 @@
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\bin\Debug\S_Virtual.exe
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\bin\Debug\S_Virtual.pdb
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.Properties.Resources.resources
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.exe
+C:\Users\bsenyayla\YandexDisk\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.pdb
+H:\UsbDisk\TMP_AYIKLA\LargeData\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.exe
+H:\UsbDisk\TMP_AYIKLA\LargeData\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.pdb
+H:\UsbDisk\TMP_AYIKLA\LargeData\Tech\GenelOrnek\S_Virtual\S_Virtual\bin\Debug\S_Virtual.exe
+H:\UsbDisk\TMP_AYIKLA\LargeData\Tech\GenelOrnek\S_Virtual\S_Virtual\bin\Debug\S_Virtual.pdb
+H:\UsbDisk\TMP_AYIKLA\LargeData\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.Properties.Resources.resources
+H:\UsbDisk\TMP_AYIKLA\LargeData\Tech\GenelOrnek\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.csproj.GenerateResource.Cache
+H:\Education\Kitap\C#\S_Virtual\S_Virtual\bin\Debug\S_Virtual.exe
+H:\Education\Kitap\C#\S_Virtual\S_Virtual\bin\Debug\S_Virtual.pdb
+H:\Education\Kitap\C#\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.csprojResolveAssemblyReference.cache
+H:\Education\Kitap\C#\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.Properties.Resources.resources
+H:\Education\Kitap\C#\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.csproj.GenerateResource.Cache
+H:\Education\Kitap\C#\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.exe
+H:\Education\Kitap\C#\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.pdb
+E:\Education\Kitap ve Eskiler\C#\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.exe
+E:\Education\Kitap ve Eskiler\C#\S_Virtual\S_Virtual\obj\x86\Debug\S_Virtual.pdb

@@ -1,0 +1,6 @@
+D:\Kronus\Client\Kronus.Client.Proxies\bin\Release\Kronus.Client.Proxies.dll
+D:\Kronus\Client\Kronus.Client.Proxies\bin\Release\Kronus.Client.Proxies.pdb
+D:\Kronus\Client\Kronus.Client.Proxies\obj\Release\Kronus.Client.Proxies.dll
+D:\Kronus\Client\Kronus.Client.Proxies\obj\Release\Kronus.Client.Proxies.pdb
+D:\Kronus\Client\Kronus.Client.Proxies\bin\Release\Kronus.Client.Proxies.dll.config
+D:\Kronus\Client\Kronus.Client.Proxies\obj\Release\Kronus.Client.Proxies.csprojResolveAssemblyReference.cache

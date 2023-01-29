@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bc2ebde57f3044a09231a5c9e4d0c6d6" Name="Diagram1" ZoomLevel="92">
+        <EntityTypeShape EntityType="dbCrmModel.CrmBolum" Width="1.5" PointX="0.20773896584647661" PointY="15.445581949989117" />
+        <EntityTypeShape EntityType="dbCrmModel.CrmDepartman" Width="1.5" PointX="4.2175083794712593" PointY="30.331520809946358" />
+        <EntityTypeShape EntityType="dbCrmModel.CrmEhliyet" Width="1.5" PointX="9.5372920788532554" PointY="11.635341277176208" />
+        <EntityTypeShape EntityType="dbCrmModel.CrmFirma" Width="1.5" PointX="4.6491737890286249" PointY="6.8681473465953706" />
+        <EntityTypeShape EntityType="dbCrmModel.CrmFirmaLokasyon" Width="1.5" PointX="10.490557908308952" PointY="24.737221952871057" />
+        <EntityTypeShape EntityType="dbCrmModel.CrmGorev" Width="1.5" PointX="0.19729251051195546" PointY="1.4584472782250715" />
+        <EntityTypeShape EntityType="dbCrmModel.CrmPersonel" Width="1.5" PointX="4.4740886168899427" PointY="27.687403170246352" />
+        <EntityTypeShape EntityType="dbCrmModel.FrwDevelopmentHistory" Width="1.5" PointX="7.4628807564558839" PointY="27.80387200219737" />
+        <EntityTypeShape EntityType="dbCrmModel.FrwGeneralContraint" Width="1.5" PointX="3.6238793319202394" PointY="2.9679068340770467" />
+        <EntityTypeShape EntityType="dbCrmModel.FrwGeneralValues" Width="1.5" PointX="6.609798764162603" PointY="17.251250945614302" />
+        <EntityTypeShape EntityType="dbCrmModel.FrwMenu" Width="1.5" PointX="0.056429201763323139" PointY="16.078922845459974" />
+        <EntityTypeShape EntityType="dbCrmModel.FrwYetkiGrup" Width="1.5" PointX="11.850238630478382" PointY="15.391621507420959" />
+        <EntityTypeShape EntityType="dbCrmModel.FrwYetkiGrupKullanici" Width="1.5" PointX="0.68329781511952059" PointY="21.574648137006278" />
+        <EntityTypeShape EntityType="dbCrmModel.FrwYetkiGrupMenu" Width="1.5" PointX="2.3406242999903037" PointY="21.297568882488445" />
+        <EntityTypeShape EntityType="dbCrmModel.GnlBanka" Width="1.5" PointX="7.442574791350669" PointY="27.591879842612837" />
+        <EntityTypeShape EntityType="dbCrmModel.GnlMarka" Width="1.5" PointX="1.4139608318982464" PointY="9.4739954515704863" />
+        <EntityTypeShape EntityType="dbCrmModel.GnlModel" Width="1.5" PointX="10.190284513957" PointY="16.482314191983228" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvArac" Width="1.5" PointX="3.1017019073952463" PointY="1.3662492639227999" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvGuzergah" Width="1.5" PointX="6.8937546102766669" PointY="4.50298316986439" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvGuzergahMain" Width="1.5" PointX="0.51021767245150063" PointY="8.46335857010603" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvPersonel" Width="1.5" PointX="3.2953903392401482" PointY="2.5244554591013375" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvProje" Width="1.5" PointX="4.2457030621570091" PointY="22.611389081278531" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvTable" Width="1.5" PointX="3.6307045536258742" PointY="16.877756871691791" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvTedarikci" Width="1.5" PointX="0.56976894315787074" PointY="3.1831651344816971" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvYolcu" Width="1.5" PointX="5.478658488708855" PointY="16.901762046339812" />
+        <EntityTypeShape EntityType="dbCrmModel.SrvYolcuVeli" Width="1.5" PointX="2.4761866193619495" PointY="27.380259690517679" />
+        <AssociationConnector Association="dbCrmModel.FK_CrmPersonel_CrmBolum" />
+        <AssociationConnector Association="dbCrmModel.FK_CrmPersonel_CrmDepartman" />
+        <AssociationConnector Association="dbCrmModel.FK_CrmEhliyet_CrmPersonel" />
+        <AssociationConnector Association="dbCrmModel.FK_CrmPersonel_CrmFirma" />
+        <AssociationConnector Association="dbCrmModel.FK_CrmPersonel_CrmFirmaLokasyon" />
+        <AssociationConnector Association="dbCrmModel.FK_CrmPersonel_CrmGorev" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvGuzergah_Hostes" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvGuzergah_Sofor" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvProje_MusteriTemsilcisi" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvProje_ProjeLideri" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvProje_SozlesmeyiYapan" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvProje_FrwGeneralValues" />
+        <AssociationConnector Association="dbCrmModel.FK_YetkiGrupMenu_Menu" />
+        <AssociationConnector Association="dbCrmModel.FK_YetkiGrupKullanici_YetkiGrup" />
+        <AssociationConnector Association="dbCrmModel.FK_YetkiGrupMenu_YetkiGrup" />
+        <AssociationConnector Association="dbCrmModel.FK_GnlModel_GnlMarka" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvArac_GnlMarka" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvArac_GnlModel" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvArac_SrvTedarikci" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvGuzergah_SrvArac" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvGuzergah_SrvGuzergahMain" />
+        <AssociationConnector Association="dbCrmModel.FK_SrvGuzergahMain_SrvProje" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

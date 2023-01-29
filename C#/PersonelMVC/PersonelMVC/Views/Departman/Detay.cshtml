@@ -1,0 +1,29 @@
+﻿@model PersonelMVC.ViewModels.DepartmanDetayViewModel
+@{
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detay</title>
+</head>
+<body>
+    <div> 
+        <h1>Departman Detay Ekranı</h1><br />
+
+        <h2>Departman Adı: @Model.Departman.Ad</h2>
+        <ul>
+            
+            @foreach (PersonelMVC.Models.Personel vl in Model.PersonelData)
+            {
+                <li>@vl.PersonelAd</li> 
+            }
+            
+        </ul>
+    </div>
+</body>
+</html>

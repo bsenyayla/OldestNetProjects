@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SrvService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity.Models" />
+      <xsd:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity" />
+      <xsd:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+      <xsd:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://localhost:21318/SrvService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/Kronus.Server.BusinessFlow" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISrvService_DoWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoWork" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DoWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetProjeShortList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProjeShortList" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetProjeShortList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProjeShortListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetProjeById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProjeById" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetProjeById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProjeByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddProje_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddProje" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddProje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddProjeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditProje_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditProje" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditProje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditProjeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteProje_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProje" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteProje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProjeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetProjeListForCombo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProjeListForCombo" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetProjeListForCombo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProjeListForComboResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetPersonelListForCombo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonelListForCombo" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetPersonelListForCombo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonelListForComboResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahMainList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahMainList" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahMainList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahMainListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahMainById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahMainById" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahMainById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahMainByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddGuzergahMain_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGuzergahMain" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddGuzergahMain_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGuzergahMainResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditGuzergahMain_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditGuzergahMain" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditGuzergahMain_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditGuzergahMainResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteGuzergahMain_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGuzergahMain" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteGuzergahMain_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGuzergahMainResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahList" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahById" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetGuzergahById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuzergahByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddGuzergah_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGuzergah" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddGuzergah_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGuzergahResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditGuzergah_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditGuzergah" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditGuzergah_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditGuzergahResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteGuzergah_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGuzergah" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteGuzergah_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGuzergahResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_SmsGonder_InputMessage">
+    <wsdl:part name="parameters" element="tns:SmsGonder" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_SmsGonder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SmsGonderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Sofor_GetCombo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Sofor_GetCombo" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Sofor_GetCombo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Sofor_GetComboResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Hostes_GetCombo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Hostes_GetCombo" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Hostes_GetCombo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Hostes_GetComboResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Arac_GetCombo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Arac_GetCombo" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Arac_GetCombo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Arac_GetComboResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Arac_GetAracList_InputMessage">
+    <wsdl:part name="parameters" element="tns:Arac_GetAracList" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Arac_GetAracList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Arac_GetAracListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Arac_GetAracById_InputMessage">
+    <wsdl:part name="parameters" element="tns:Arac_GetAracById" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_Arac_GetAracById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Arac_GetAracByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddArac_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddArac" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddArac_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAracResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditArac_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditArac" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditArac_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditAracResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteArac_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteArac" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_DeleteArac_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAracResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetTedarikciList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTedarikciList" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetTedarikciList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTedarikciListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetTedarikciById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTedarikciById" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetTedarikciById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTedarikciByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddTedarikci_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTedarikci" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_AddTedarikci_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTedarikciResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditTedarikci_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditTedarikci" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_EditTedarikci_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditTedarikciResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetCombo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCombo" />
+  </wsdl:message>
+  <wsdl:message name="ISrvService_GetCombo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetComboResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISrvService">
+    <wsdl:operation name="DoWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/DoWork" message="tns:ISrvService_DoWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/DoWorkResponse" message="tns:ISrvService_DoWork_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProjeShortList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetProjeShortList" message="tns:ISrvService_GetProjeShortList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetProjeShortListResponse" message="tns:ISrvService_GetProjeShortList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProjeById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetProjeById" message="tns:ISrvService_GetProjeById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetProjeByIdResponse" message="tns:ISrvService_GetProjeById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddProje">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/AddProje" message="tns:ISrvService_AddProje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/AddProjeResponse" message="tns:ISrvService_AddProje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditProje">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/EditProje" message="tns:ISrvService_EditProje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/EditProjeResponse" message="tns:ISrvService_EditProje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProje">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/DeleteProje" message="tns:ISrvService_DeleteProje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/DeleteProjeResponse" message="tns:ISrvService_DeleteProje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProjeListForCombo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetProjeListForCombo" message="tns:ISrvService_GetProjeListForCombo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetProjeListForComboResponse" message="tns:ISrvService_GetProjeListForCombo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonelListForCombo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetPersonelListForCombo" message="tns:ISrvService_GetPersonelListForCombo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetPersonelListForComboResponse" message="tns:ISrvService_GetPersonelListForCombo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahMainList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahMainList" message="tns:ISrvService_GetGuzergahMainList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahMainListResponse" message="tns:ISrvService_GetGuzergahMainList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahMainById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahMainById" message="tns:ISrvService_GetGuzergahMainById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahMainByIdResponse" message="tns:ISrvService_GetGuzergahMainById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGuzergahMain">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/AddGuzergahMain" message="tns:ISrvService_AddGuzergahMain_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/AddGuzergahMainResponse" message="tns:ISrvService_AddGuzergahMain_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditGuzergahMain">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/EditGuzergahMain" message="tns:ISrvService_EditGuzergahMain_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/EditGuzergahMainResponse" message="tns:ISrvService_EditGuzergahMain_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGuzergahMain">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/DeleteGuzergahMain" message="tns:ISrvService_DeleteGuzergahMain_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/DeleteGuzergahMainResponse" message="tns:ISrvService_DeleteGuzergahMain_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahList" message="tns:ISrvService_GetGuzergahList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahListResponse" message="tns:ISrvService_GetGuzergahList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahById" message="tns:ISrvService_GetGuzergahById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetGuzergahByIdResponse" message="tns:ISrvService_GetGuzergahById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGuzergah">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/AddGuzergah" message="tns:ISrvService_AddGuzergah_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/AddGuzergahResponse" message="tns:ISrvService_AddGuzergah_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditGuzergah">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/EditGuzergah" message="tns:ISrvService_EditGuzergah_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/EditGuzergahResponse" message="tns:ISrvService_EditGuzergah_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGuzergah">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/DeleteGuzergah" message="tns:ISrvService_DeleteGuzergah_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/DeleteGuzergahResponse" message="tns:ISrvService_DeleteGuzergah_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SmsGonder">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/SmsGonder" message="tns:ISrvService_SmsGonder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/SmsGonderResponse" message="tns:ISrvService_SmsGonder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Sofor_GetCombo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/Sofor_GetCombo" message="tns:ISrvService_Sofor_GetCombo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/Sofor_GetComboResponse" message="tns:ISrvService_Sofor_GetCombo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Hostes_GetCombo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/Hostes_GetCombo" message="tns:ISrvService_Hostes_GetCombo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/Hostes_GetComboResponse" message="tns:ISrvService_Hostes_GetCombo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Arac_GetCombo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/Arac_GetCombo" message="tns:ISrvService_Arac_GetCombo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/Arac_GetComboResponse" message="tns:ISrvService_Arac_GetCombo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Arac_GetAracList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/Arac_GetAracList" message="tns:ISrvService_Arac_GetAracList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/Arac_GetAracListResponse" message="tns:ISrvService_Arac_GetAracList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Arac_GetAracById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/Arac_GetAracById" message="tns:ISrvService_Arac_GetAracById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/Arac_GetAracByIdResponse" message="tns:ISrvService_Arac_GetAracById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddArac">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/AddArac" message="tns:ISrvService_AddArac_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/AddAracResponse" message="tns:ISrvService_AddArac_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditArac">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/EditArac" message="tns:ISrvService_EditArac_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/EditAracResponse" message="tns:ISrvService_EditArac_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteArac">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/DeleteArac" message="tns:ISrvService_DeleteArac_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/DeleteAracResponse" message="tns:ISrvService_DeleteArac_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTedarikciList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetTedarikciList" message="tns:ISrvService_GetTedarikciList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetTedarikciListResponse" message="tns:ISrvService_GetTedarikciList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTedarikciById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetTedarikciById" message="tns:ISrvService_GetTedarikciById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetTedarikciByIdResponse" message="tns:ISrvService_GetTedarikciById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTedarikci">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/AddTedarikci" message="tns:ISrvService_AddTedarikci_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/AddTedarikciResponse" message="tns:ISrvService_AddTedarikci_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditTedarikci">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/EditTedarikci" message="tns:ISrvService_EditTedarikci_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/EditTedarikciResponse" message="tns:ISrvService_EditTedarikci_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCombo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISrvService/GetCombo" message="tns:ISrvService_GetCombo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISrvService/GetComboResponse" message="tns:ISrvService_GetCombo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISrvService" type="tns:ISrvService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoWork">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/DoWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjeShortList">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetProjeShortList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjeById">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetProjeById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddProje">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/AddProje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditProje">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/EditProje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProje">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/DeleteProje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjeListForCombo">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetProjeListForCombo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonelListForCombo">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetPersonelListForCombo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahMainList">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetGuzergahMainList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahMainById">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetGuzergahMainById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGuzergahMain">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/AddGuzergahMain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditGuzergahMain">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/EditGuzergahMain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGuzergahMain">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/DeleteGuzergahMain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahList">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetGuzergahList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGuzergahById">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetGuzergahById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGuzergah">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/AddGuzergah" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditGuzergah">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/EditGuzergah" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGuzergah">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/DeleteGuzergah" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SmsGonder">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/SmsGonder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sofor_GetCombo">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/Sofor_GetCombo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Hostes_GetCombo">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/Hostes_GetCombo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Arac_GetCombo">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/Arac_GetCombo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Arac_GetAracList">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/Arac_GetAracList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Arac_GetAracById">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/Arac_GetAracById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddArac">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/AddArac" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditArac">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/EditArac" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteArac">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/DeleteArac" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTedarikciList">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetTedarikciList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTedarikciById">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetTedarikciById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTedarikci">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/AddTedarikci" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditTedarikci">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/EditTedarikci" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCombo">
+      <soap:operation soapAction="http://tempuri.org/ISrvService/GetCombo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SrvService">
+    <wsdl:port name="BasicHttpBinding_ISrvService" binding="tns:BasicHttpBinding_ISrvService">
+      <soap:address location="http://localhost:21318/SrvService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

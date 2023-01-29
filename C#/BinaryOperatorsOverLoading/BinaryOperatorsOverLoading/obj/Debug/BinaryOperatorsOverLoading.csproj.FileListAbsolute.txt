@@ -1,0 +1,6 @@
+d:\Users\dtbsenyayla\Desktop\ccc\BinaryOperatorsOverLoading\BinaryOperatorsOverLoading\bin\Debug\BinaryOperatorsOverLoading.exe.config
+d:\Users\dtbsenyayla\Desktop\ccc\BinaryOperatorsOverLoading\BinaryOperatorsOverLoading\bin\Debug\BinaryOperatorsOverLoading.exe
+d:\Users\dtbsenyayla\Desktop\ccc\BinaryOperatorsOverLoading\BinaryOperatorsOverLoading\bin\Debug\BinaryOperatorsOverLoading.pdb
+d:\Users\dtbsenyayla\Desktop\ccc\BinaryOperatorsOverLoading\BinaryOperatorsOverLoading\obj\Debug\BinaryOperatorsOverLoading.csprojResolveAssemblyReference.cache
+d:\Users\dtbsenyayla\Desktop\ccc\BinaryOperatorsOverLoading\BinaryOperatorsOverLoading\obj\Debug\BinaryOperatorsOverLoading.exe
+d:\Users\dtbsenyayla\Desktop\ccc\BinaryOperatorsOverLoading\BinaryOperatorsOverLoading\obj\Debug\BinaryOperatorsOverLoading.pdb

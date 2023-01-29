@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Kronus.Server.Service.CrmService" CodeBehind="CrmService.svc.cs" %>

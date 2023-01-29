@@ -1,0 +1,8 @@
+D:\KronusSoft\Server\TestEntity\bin\Debug\TestEntity.dll.config
+D:\KronusSoft\Server\TestEntity\bin\Debug\TestEntity.dll
+D:\KronusSoft\Server\TestEntity\bin\Debug\TestEntity.pdb
+D:\KronusSoft\Server\TestEntity\bin\Debug\EntityFramework.dll
+D:\KronusSoft\Server\TestEntity\bin\Debug\EntityFramework.xml
+D:\KronusSoft\Server\TestEntity\obj\Debug\TestEntity.dll
+D:\KronusSoft\Server\TestEntity\obj\Debug\TestEntity.pdb
+D:\KronusSoft\Server\TestEntity\obj\Debug\TestEntity.csprojResolveAssemblyReference.cache

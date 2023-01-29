@@ -1,0 +1,5 @@
+H:\Education\C#\EnterpriseArchitect\Arch.Web.FrameWork\bin\Debug\Arch.Web.FrameWork.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Web.FrameWork\bin\Debug\Arch.Web.FrameWork.pdb
+H:\Education\C#\EnterpriseArchitect\Arch.Web.FrameWork\obj\Debug\Arch.Web.FrameWork.csprojResolveAssemblyReference.cache
+H:\Education\C#\EnterpriseArchitect\Arch.Web.FrameWork\obj\Debug\Arch.Web.FrameWork.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Web.FrameWork\obj\Debug\Arch.Web.FrameWork.pdb

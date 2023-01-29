@@ -1,0 +1,17 @@
+D:\Kronus\Client\Kronus.Client.Destop.Crm\bin\Release\Kronus.Client.Destop.Crm.dll
+D:\Kronus\Client\Kronus.Client.Destop.Crm\bin\Release\Kronus.Client.Destop.Crm.pdb
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.Form1.resources
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.csproj.GenerateResource.Cache
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.dll
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.pdb
+D:\Kronus\Client\Kronus.Client.Destop.Crm\bin\Release\Kronus.Client.Common.dll
+D:\Kronus\Client\Kronus.Client.Destop.Crm\bin\Release\Kronus.Client.Proxies.dll
+D:\Kronus\Client\Kronus.Client.Destop.Crm\bin\Release\Kronus.Client.Common.pdb
+D:\Kronus\Client\Kronus.Client.Destop.Crm\bin\Release\Kronus.Client.Proxies.pdb
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.csprojResolveAssemblyReference.cache
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.IK.PersonelListesi.resources
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.IK.PersonelTanim.resources
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.Properties.Resources.resources
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.SmsGonder.resources
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.XtraForm1.resources
+D:\Kronus\Client\Kronus.Client.Destop.Crm\obj\Release\Kronus.Client.Destop.Crm.dll.licenses

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kronus.Server.Entity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:21318/CrmService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:21318/CrmService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:complexType name="CrmPersonel">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Adres" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BirinciYonetici" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="BolumId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="CalismaSekli" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CariKod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CikisTarihi" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Cinsiyet" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CrmBolum" nillable="true" type="tns:CrmBolum" />
+          <xs:element minOccurs="0" name="CrmBolumReference" nillable="true" type="q1:EntityReferenceOfCrmBolumKH5lzNsy" />
+          <xs:element minOccurs="0" name="CrmDepartman" nillable="true" type="tns:CrmDepartman" />
+          <xs:element minOccurs="0" name="CrmDepartmanReference" nillable="true" type="q1:EntityReferenceOfCrmDepartmanKH5lzNsy" />
+          <xs:element minOccurs="0" name="CrmEhliyet" nillable="true" type="tns:ArrayOfCrmEhliyet" />
+          <xs:element minOccurs="0" name="CrmFirma" nillable="true" type="tns:CrmFirma" />
+          <xs:element minOccurs="0" name="CrmFirmaLokasyon" nillable="true" type="tns:CrmFirmaLokasyon" />
+          <xs:element minOccurs="0" name="CrmFirmaLokasyonReference" nillable="true" type="q1:EntityReferenceOfCrmFirmaLokasyonKH5lzNsy" />
+          <xs:element minOccurs="0" name="CrmFirmaReference" nillable="true" type="q1:EntityReferenceOfCrmFirmaKH5lzNsy" />
+          <xs:element minOccurs="0" name="CrmGorev" nillable="true" type="tns:CrmGorev" />
+          <xs:element minOccurs="0" name="CrmGorevReference" nillable="true" type="q1:EntityReferenceOfCrmGorevKH5lzNsy" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DepartmanId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="DogumTarihi" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DomainName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EhliyetId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmailIs" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraStr1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirmaId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="FirmaLokasyonId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="GirisTarihi" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="GorevId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="GsmNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IkinciYonetici" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="Img_1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Img_2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" type="xs:boolean" />
+          <xs:element minOccurs="0" name="MedeniHali" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OdemeTipi" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProfilFoto" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SrvGuzergah" nillable="true" type="tns:ArrayOfSrvGuzergah" />
+          <xs:element minOccurs="0" name="SrvGuzergah1" nillable="true" type="tns:ArrayOfSrvGuzergah" />
+          <xs:element minOccurs="0" name="SrvProje" nillable="true" type="tns:ArrayOfSrvProje" />
+          <xs:element minOccurs="0" name="SrvProje1" nillable="true" type="tns:ArrayOfSrvProje" />
+          <xs:element minOccurs="0" name="SrvProje2" nillable="true" type="tns:ArrayOfSrvProje" />
+          <xs:element minOccurs="0" name="TcKimlikNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TelefonNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TelefonNoIs" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CrmPersonel" nillable="true" type="tns:CrmPersonel" />
+  <xs:complexType name="CrmBolum">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q2:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BolumEmailGrup" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CrmPersonel" nillable="true" type="tns:ArrayOfCrmPersonel" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DepartmanId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="ExtraStr1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CrmBolum" nillable="true" type="tns:CrmBolum" />
+  <xs:complexType name="ArrayOfCrmPersonel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CrmPersonel" nillable="true" type="tns:CrmPersonel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCrmPersonel" nillable="true" type="tns:ArrayOfCrmPersonel" />
+  <xs:complexType name="CrmDepartman">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q3:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CrmPersonel" nillable="true" type="tns:ArrayOfCrmPersonel" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraStr1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CrmDepartman" nillable="true" type="tns:CrmDepartman" />
+  <xs:complexType name="ArrayOfCrmEhliyet">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CrmEhliyet" nillable="true" type="tns:CrmEhliyet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCrmEhliyet" nillable="true" type="tns:ArrayOfCrmEhliyet" />
+  <xs:complexType name="CrmEhliyet">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q4:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BelgeNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CrmPersonel" nillable="true" type="tns:CrmPersonel" />
+          <xs:element minOccurs="0" name="CrmPersonelReference" nillable="true" type="q4:EntityReferenceOfCrmPersonelKH5lzNsy" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="Img_1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Img_2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PersonelId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Sinif" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Soyad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VerilisIl" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VerilisIlce" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VerilisTarihi" nillable="true" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CrmEhliyet" nillable="true" type="tns:CrmEhliyet" />
+  <xs:complexType name="CrmFirma">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q5:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CariKod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CrmPersonel" nillable="true" type="tns:ArrayOfCrmPersonel" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraStr1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CrmFirma" nillable="true" type="tns:CrmFirma" />
+  <xs:complexType name="CrmFirmaLokasyon">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q6="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q6:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CrmPersonel" nillable="true" type="tns:ArrayOfCrmPersonel" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraStr1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirmaId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="Il" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Ilce" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CrmFirmaLokasyon" nillable="true" type="tns:CrmFirmaLokasyon" />
+  <xs:complexType name="CrmGorev">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q7:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CrmPersonel" nillable="true" type="tns:ArrayOfCrmPersonel" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraStr1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CrmGorev" nillable="true" type="tns:CrmGorev" />
+  <xs:complexType name="ArrayOfSrvGuzergah">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SrvGuzergah" nillable="true" type="tns:SrvGuzergah" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSrvGuzergah" nillable="true" type="tns:ArrayOfSrvGuzergah" />
+  <xs:complexType name="SrvGuzergah">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q8:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Arac" type="xs:int" />
+          <xs:element minOccurs="0" name="GuzergahMainId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Hostes" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="HostesEx" nillable="true" type="tns:CrmPersonel" />
+          <xs:element minOccurs="0" name="HostesExReference" nillable="true" type="q8:EntityReferenceOfCrmPersonelKH5lzNsy" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" type="xs:boolean" />
+          <xs:element minOccurs="0" name="KisiSayisi" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Sofor" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="SoforEx" nillable="true" type="tns:CrmPersonel" />
+          <xs:element minOccurs="0" name="SoforExReference" nillable="true" type="q8:EntityReferenceOfCrmPersonelKH5lzNsy" />
+          <xs:element minOccurs="0" name="SrvArac" nillable="true" type="tns:SrvArac" />
+          <xs:element minOccurs="0" name="SrvAracReference" nillable="true" type="q8:EntityReferenceOfSrvAracKH5lzNsy" />
+          <xs:element minOccurs="0" name="SrvGuzergahMain" nillable="true" type="tns:SrvGuzergahMain" />
+          <xs:element minOccurs="0" name="SrvGuzergahMainReference" nillable="true" type="q8:EntityReferenceOfSrvGuzergahMainKH5lzNsy" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SrvGuzergah" nillable="true" type="tns:SrvGuzergah" />
+  <xs:complexType name="SrvArac">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q9:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AracSahibiAd" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AracSahibiSoyad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Cinsi" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GnlMarka" nillable="true" type="tns:GnlMarka" />
+          <xs:element minOccurs="0" name="GnlMarkaReference" nillable="true" type="q9:EntityReferenceOfGnlMarkaKH5lzNsy" />
+          <xs:element minOccurs="0" name="GnlModel" nillable="true" type="tns:GnlModel" />
+          <xs:element minOccurs="0" name="GnlModelReference" nillable="true" type="q9:EntityReferenceOfGnlModelKH5lzNsy" />
+          <xs:element minOccurs="0" name="GpsCihazId" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Id" type="xs:int" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IstiapHaddi" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="LogoKodu" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Marka" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="ModelYili" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="MotorGucu" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="MotorNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MuayeneTarihi" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="NetAgirlik" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Plaka" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Renk" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SasiNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SilindirHacmi" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="SrvGuzergahs" nillable="true" type="tns:ArrayOfSrvGuzergah" />
+          <xs:element minOccurs="0" name="SrvTedarikci" nillable="true" type="tns:SrvTedarikci" />
+          <xs:element minOccurs="0" name="SrvTedarikciReference" nillable="true" type="q9:EntityReferenceOfSrvTedarikciKH5lzNsy" />
+          <xs:element minOccurs="0" name="TedarikciId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="Tipi" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="YolcuKapasitesi" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SrvArac" nillable="true" type="tns:SrvArac" />
+  <xs:complexType name="GnlMarka">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q10="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q10:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GnlModels" nillable="true" type="tns:ArrayOfGnlModel" />
+          <xs:element minOccurs="0" name="Id" type="xs:int" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SrvAracs" nillable="true" type="tns:ArrayOfSrvArac" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GnlMarka" nillable="true" type="tns:GnlMarka" />
+  <xs:complexType name="ArrayOfGnlModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GnlModel" nillable="true" type="tns:GnlModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGnlModel" nillable="true" type="tns:ArrayOfGnlModel" />
+  <xs:complexType name="GnlModel">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q11:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GnlMarka" nillable="true" type="tns:GnlMarka" />
+          <xs:element minOccurs="0" name="GnlMarkaReference" nillable="true" type="q11:EntityReferenceOfGnlMarkaKH5lzNsy" />
+          <xs:element minOccurs="0" name="Id" type="xs:int" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="MarkaId" type="xs:int" />
+          <xs:element minOccurs="0" name="SrvAracs" nillable="true" type="tns:ArrayOfSrvArac" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GnlModel" nillable="true" type="tns:GnlModel" />
+  <xs:complexType name="ArrayOfSrvArac">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SrvArac" nillable="true" type="tns:SrvArac" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSrvArac" nillable="true" type="tns:ArrayOfSrvArac" />
+  <xs:complexType name="SrvTedarikci">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q12="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q12:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Adres" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Banka" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CariAd" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CariKod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Gsm" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HesapNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IBAN" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SrvAracs" nillable="true" type="tns:ArrayOfSrvArac" />
+          <xs:element minOccurs="0" name="Sube" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Telefon" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VergiDairesi" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VergiNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="YetkiliKisi" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SrvTedarikci" nillable="true" type="tns:SrvTedarikci" />
+  <xs:complexType name="SrvGuzergahMain">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q13:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Km" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MusteriFiyat" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="ProjeId" type="ser:guid" />
+          <xs:element minOccurs="0" name="SrvGuzergahs" nillable="true" type="tns:ArrayOfSrvGuzergah" />
+          <xs:element minOccurs="0" name="SrvProje" nillable="true" type="tns:SrvProje" />
+          <xs:element minOccurs="0" name="SrvProjeReference" nillable="true" type="q13:EntityReferenceOfSrvProjeKH5lzNsy" />
+          <xs:element minOccurs="0" name="TedarikFiyat" nillable="true" type="xs:decimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SrvGuzergahMain" nillable="true" type="tns:SrvGuzergahMain" />
+  <xs:complexType name="SrvProje">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q14="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q14:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AracBedelsizSeferSayisi" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Bolge" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CreateUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DeleteDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeleteUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FaturaGunu" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="FaturaHizmetKodu" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FaturaTipi" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="FirmaYetkiliEmail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirmaYetkiliFax" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirmaYetkiliTel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirmaYetkilisi" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Grup" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HostesHakEdisTutari" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IskontoOrani" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Kod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MusteriTemsilcisi" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="MusteriTemsilcisiEx" nillable="true" type="tns:CrmPersonel" />
+          <xs:element minOccurs="0" name="MusteriTemsilcisiExReference" nillable="true" type="q14:EntityReferenceOfCrmPersonelKH5lzNsy" />
+          <xs:element minOccurs="0" name="ProjeLideri" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="ProjeLideriEx" nillable="true" type="tns:CrmPersonel" />
+          <xs:element minOccurs="0" name="ProjeLideriExReference" nillable="true" type="q14:EntityReferenceOfCrmPersonelKH5lzNsy" />
+          <xs:element minOccurs="0" name="ProjeTipiEx" nillable="true" type="tns:FrwGeneralValue" />
+          <xs:element minOccurs="0" name="ProjeTipiExReference" nillable="true" type="q14:EntityReferenceOfFrwGeneralValueKH5lzNsy" />
+          <xs:element minOccurs="0" name="Sektor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Sirket" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SoforHakEdisTutari" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="SozlesmeBaslangicTarihi" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="SozlesmeBitisTarihi" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="SozlesmeyiYapan" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="SozlesmeyiYapanEx" nillable="true" type="tns:CrmPersonel" />
+          <xs:element minOccurs="0" name="SozlesmeyiYapanExReference" nillable="true" type="q14:EntityReferenceOfCrmPersonelKH5lzNsy" />
+          <xs:element minOccurs="0" name="SrvGuzergahMains" nillable="true" type="tns:ArrayOfSrvGuzergahMain" />
+          <xs:element minOccurs="0" name="Tipi" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WebSitesi" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SrvProje" nillable="true" type="tns:SrvProje" />
+  <xs:complexType name="FrwGeneralValue">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q15="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q15:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsActive" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SrvProjes" nillable="true" type="tns:ArrayOfSrvProje" />
+          <xs:element minOccurs="0" name="UstId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FrwGeneralValue" nillable="true" type="tns:FrwGeneralValue" />
+  <xs:complexType name="ArrayOfSrvProje">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SrvProje" nillable="true" type="tns:SrvProje" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSrvProje" nillable="true" type="tns:ArrayOfSrvProje" />
+  <xs:complexType name="ArrayOfSrvGuzergahMain">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SrvGuzergahMain" nillable="true" type="tns:SrvGuzergahMain" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSrvGuzergahMain" nillable="true" type="tns:ArrayOfSrvGuzergahMain" />
+</xs:schema>

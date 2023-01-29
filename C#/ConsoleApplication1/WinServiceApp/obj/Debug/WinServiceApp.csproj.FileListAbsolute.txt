@@ -1,0 +1,8 @@
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\bin\Debug\WinServiceApp.exe.config
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\bin\Debug\WinServiceApp.exe
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\bin\Debug\WinServiceApp.pdb
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\obj\Debug\WinServiceApp.csprojResolveAssemblyReference.cache
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\obj\Debug\WinServiceApp.exe
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\obj\Debug\WinServiceApp.pdb
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\DTBSENYAYLA\Desktop\Enmos\ConsoleApplication1\WinServiceApp\bin\Debug\WcfServiceLibrary1.pdb

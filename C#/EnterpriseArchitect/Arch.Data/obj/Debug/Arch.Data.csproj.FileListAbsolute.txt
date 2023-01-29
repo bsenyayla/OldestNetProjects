@@ -1,0 +1,5 @@
+H:\Education\C#\EnterpriseArchitect\Arch.Data\bin\Debug\Arch.Data.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Data\bin\Debug\Arch.Data.pdb
+H:\Education\C#\EnterpriseArchitect\Arch.Data\obj\Debug\Arch.Data.csprojResolveAssemblyReference.cache
+H:\Education\C#\EnterpriseArchitect\Arch.Data\obj\Debug\Arch.Data.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Data\obj\Debug\Arch.Data.pdb

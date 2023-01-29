@@ -1,0 +1,16 @@
+D:\Kronus\Client\Kronus.Client.Common\bin\Release\Kronus.Client.Common.dll
+D:\Kronus\Client\Kronus.Client.Common\bin\Release\Kronus.Client.Common.pdb
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.csprojResolveAssemblyReference.cache
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Forms.BaseEditXtraForm.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Forms.BaseXtraForm.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Forms.Form2.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Forms.SplashScreen1.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Forms.Theme.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Forms.BaseWaitForm.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Management.AppGeneralInfo.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.Properties.Resources.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.UserControls.ucBasicGrid.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.UserControls.ucWait.resources
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.csproj.GenerateResource.Cache
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.dll
+D:\Kronus\Client\Kronus.Client.Common\obj\Release\Kronus.Client.Common.pdb

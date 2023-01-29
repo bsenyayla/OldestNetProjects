@@ -1,0 +1,9 @@
+C:\Users\Comp1\Desktop\C#\BaseThis\BaseThis\bin\Debug\BaseThis.exe.config
+C:\Users\Comp1\Desktop\C#\BaseThis\BaseThis\bin\Debug\BaseThis.exe
+C:\Users\Comp1\Desktop\C#\BaseThis\BaseThis\bin\Debug\BaseThis.pdb
+C:\Users\Comp1\Desktop\C#\BaseThis\BaseThis\obj\Debug\BaseThis.csprojResolveAssemblyReference.cache
+C:\Users\Comp1\Desktop\C#\BaseThis\BaseThis\obj\Debug\BaseThis.exe
+C:\Users\Comp1\Desktop\C#\BaseThis\BaseThis\obj\Debug\BaseThis.pdb
+F:\TempFiles\YEDEK\C#\BaseThis\BaseThis\bin\Debug\BaseThis.exe.config
+F:\TempFiles\YEDEK\C#\BaseThis\BaseThis\obj\Debug\BaseThis.exe
+F:\TempFiles\YEDEK\C#\BaseThis\BaseThis\obj\Debug\BaseThis.pdb

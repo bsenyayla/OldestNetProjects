@@ -1,0 +1,2147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dbCrmModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="dbCrmModelStoreContainer">
+          <EntitySet Name="CrmBolum" EntityType="dbCrmModel.Store.CrmBolum" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CrmDepartman" EntityType="dbCrmModel.Store.CrmDepartman" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CrmEhliyet" EntityType="dbCrmModel.Store.CrmEhliyet" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CrmFirma" EntityType="dbCrmModel.Store.CrmFirma" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CrmFirmaLokasyon" EntityType="dbCrmModel.Store.CrmFirmaLokasyon" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CrmGorev" EntityType="dbCrmModel.Store.CrmGorev" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CrmPersonel" EntityType="dbCrmModel.Store.CrmPersonel" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FrwDevelopmentHistory" EntityType="dbCrmModel.Store.FrwDevelopmentHistory" store:Type="Tables" store:Schema="dbo" store:Name="FrwDevelopmentHistory">
+            <DefiningQuery>SELECT 
+      [FrwDevelopmentHistory].[Id] AS [Id], 
+      [FrwDevelopmentHistory].[Aciklama] AS [Aciklama], 
+      [FrwDevelopmentHistory].[Tarih] AS [Tarih]
+      FROM [dbo].[FrwDevelopmentHistory] AS [FrwDevelopmentHistory]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="FrwGeneralContraint" EntityType="dbCrmModel.Store.FrwGeneralContraint" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FrwGeneralValues" EntityType="dbCrmModel.Store.FrwGeneralValues" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FrwMenu" EntityType="dbCrmModel.Store.FrwMenu" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FrwYetkiGrup" EntityType="dbCrmModel.Store.FrwYetkiGrup" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FrwYetkiGrupKullanici" EntityType="dbCrmModel.Store.FrwYetkiGrupKullanici" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FrwYetkiGrupMenu" EntityType="dbCrmModel.Store.FrwYetkiGrupMenu" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GnlBanka" EntityType="dbCrmModel.Store.GnlBanka" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GnlMarka" EntityType="dbCrmModel.Store.GnlMarka" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GnlModel" EntityType="dbCrmModel.Store.GnlModel" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvArac" EntityType="dbCrmModel.Store.SrvArac" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvGuzergah" EntityType="dbCrmModel.Store.SrvGuzergah" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvGuzergahMain" EntityType="dbCrmModel.Store.SrvGuzergahMain" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvPersonel" EntityType="dbCrmModel.Store.SrvPersonel" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvProje" EntityType="dbCrmModel.Store.SrvProje" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvTable" EntityType="dbCrmModel.Store.SrvTable" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvTedarikci" EntityType="dbCrmModel.Store.SrvTedarikci" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvYolcu" EntityType="dbCrmModel.Store.SrvYolcu" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SrvYolcuVeli" EntityType="dbCrmModel.Store.SrvYolcuVeli" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_CrmEhliyet_CrmPersonel" Association="dbCrmModel.Store.FK_CrmEhliyet_CrmPersonel">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="CrmEhliyet" EntitySet="CrmEhliyet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmBolum" Association="dbCrmModel.Store.FK_CrmPersonel_CrmBolum">
+            <End Role="CrmBolum" EntitySet="CrmBolum" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmDepartman" Association="dbCrmModel.Store.FK_CrmPersonel_CrmDepartman">
+            <End Role="CrmDepartman" EntitySet="CrmDepartman" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmFirma" Association="dbCrmModel.Store.FK_CrmPersonel_CrmFirma">
+            <End Role="CrmFirma" EntitySet="CrmFirma" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmFirmaLokasyon" Association="dbCrmModel.Store.FK_CrmPersonel_CrmFirmaLokasyon">
+            <End Role="CrmFirmaLokasyon" EntitySet="CrmFirmaLokasyon" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmGorev" Association="dbCrmModel.Store.FK_CrmPersonel_CrmGorev">
+            <End Role="CrmGorev" EntitySet="CrmGorev" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GnlModel_GnlMarka" Association="dbCrmModel.Store.FK_GnlModel_GnlMarka">
+            <End Role="GnlMarka" EntitySet="GnlMarka" />
+            <End Role="GnlModel" EntitySet="GnlModel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvArac_GnlMarka" Association="dbCrmModel.Store.FK_SrvArac_GnlMarka">
+            <End Role="GnlMarka" EntitySet="GnlMarka" />
+            <End Role="SrvArac" EntitySet="SrvArac" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvArac_GnlModel" Association="dbCrmModel.Store.FK_SrvArac_GnlModel">
+            <End Role="GnlModel" EntitySet="GnlModel" />
+            <End Role="SrvArac" EntitySet="SrvArac" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvArac_SrvTedarikci" Association="dbCrmModel.Store.FK_SrvArac_SrvTedarikci">
+            <End Role="SrvTedarikci" EntitySet="SrvTedarikci" />
+            <End Role="SrvArac" EntitySet="SrvArac" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_Hostes" Association="dbCrmModel.Store.FK_SrvGuzergah_Hostes">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_Sofor" Association="dbCrmModel.Store.FK_SrvGuzergah_Sofor">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_SrvArac" Association="dbCrmModel.Store.FK_SrvGuzergah_SrvArac">
+            <End Role="SrvArac" EntitySet="SrvArac" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_SrvGuzergahMain" Association="dbCrmModel.Store.FK_SrvGuzergah_SrvGuzergahMain">
+            <End Role="SrvGuzergahMain" EntitySet="SrvGuzergahMain" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergahMain_SrvProje" Association="dbCrmModel.Store.FK_SrvGuzergahMain_SrvProje">
+            <End Role="SrvProje" EntitySet="SrvProje" />
+            <End Role="SrvGuzergahMain" EntitySet="SrvGuzergahMain" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_FrwGeneralValues" Association="dbCrmModel.Store.FK_SrvProje_FrwGeneralValues">
+            <End Role="FrwGeneralValues" EntitySet="FrwGeneralValues" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_MusteriTemsilcisi" Association="dbCrmModel.Store.FK_SrvProje_MusteriTemsilcisi">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_ProjeLideri" Association="dbCrmModel.Store.FK_SrvProje_ProjeLideri">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_SozlesmeyiYapan" Association="dbCrmModel.Store.FK_SrvProje_SozlesmeyiYapan">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_YetkiGrupKullanici_YetkiGrup" Association="dbCrmModel.Store.FK_YetkiGrupKullanici_YetkiGrup">
+            <End Role="FrwYetkiGrup" EntitySet="FrwYetkiGrup" />
+            <End Role="FrwYetkiGrupKullanici" EntitySet="FrwYetkiGrupKullanici" />
+          </AssociationSet>
+          <AssociationSet Name="FK_YetkiGrupMenu_Menu" Association="dbCrmModel.Store.FK_YetkiGrupMenu_Menu">
+            <End Role="FrwMenu" EntitySet="FrwMenu" />
+            <End Role="FrwYetkiGrupMenu" EntitySet="FrwYetkiGrupMenu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_YetkiGrupMenu_YetkiGrup" Association="dbCrmModel.Store.FK_YetkiGrupMenu_YetkiGrup">
+            <End Role="FrwYetkiGrup" EntitySet="FrwYetkiGrup" />
+            <End Role="FrwYetkiGrupMenu" EntitySet="FrwYetkiGrupMenu" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CrmBolum">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="300" />
+          <Property Name="DepartmanId" Type="uniqueidentifier" />
+          <Property Name="BolumEmailGrup" Type="nvarchar" MaxLength="50" />
+          <Property Name="ExtraStr1" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="DeleteDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CrmDepartman">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="100" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="250" />
+          <Property Name="ExtraStr1" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="DeleteDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CrmEhliyet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="PersonelId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="30" />
+          <Property Name="Soyad" Type="nvarchar" Nullable="false" MaxLength="30" />
+          <Property Name="VerilisIl" Type="nchar" MaxLength="10" />
+          <Property Name="VerilisIlce" Type="nchar" MaxLength="10" />
+          <Property Name="BelgeNo" Type="nvarchar" MaxLength="10" />
+          <Property Name="VerilisTarihi" Type="date" />
+          <Property Name="Sinif" Type="char" Nullable="false" MaxLength="3" />
+          <Property Name="Img_1" Type="nvarchar" MaxLength="300" />
+          <Property Name="Img_2" Type="nvarchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="CrmFirma">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="300" />
+          <Property Name="CariKod" Type="nvarchar" MaxLength="10" />
+          <Property Name="ExtraStr1" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="50" />
+          <Property Name="DeleteDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CrmFirmaLokasyon">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="50" />
+          <Property Name="FirmaId" Type="uniqueidentifier" />
+          <Property Name="Il" Type="int" />
+          <Property Name="Ilce" Type="int" />
+          <Property Name="ExtraStr1" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="DeleteDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CrmGorev">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="300" />
+          <Property Name="ExtraStr1" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="DeleteDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CrmPersonel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="DomainName" Type="nvarchar" MaxLength="50" />
+          <Property Name="CariKod" Type="nvarchar" MaxLength="25" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="15" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="15" />
+          <Property Name="DogumTarihi" Type="date" />
+          <Property Name="TcKimlikNo" Type="nvarchar" MaxLength="11" />
+          <Property Name="MedeniHali" Type="char" MaxLength="1" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmailIs" Type="nvarchar" MaxLength="50" />
+          <Property Name="TelefonNo" Type="nvarchar" MaxLength="15" />
+          <Property Name="GsmNo" Type="nvarchar" MaxLength="15" />
+          <Property Name="TelefonNoIs" Type="nvarchar" MaxLength="15" />
+          <Property Name="Cinsiyet" Type="char" MaxLength="1" />
+          <Property Name="ProfilFoto" Type="nvarchar" MaxLength="300" />
+          <Property Name="GirisTarihi" Type="datetime" />
+          <Property Name="CikisTarihi" Type="datetime" />
+          <Property Name="BirinciYonetici" Type="uniqueidentifier" />
+          <Property Name="IkinciYonetici" Type="uniqueidentifier" />
+          <Property Name="DepartmanId" Type="uniqueidentifier" />
+          <Property Name="BolumId" Type="uniqueidentifier" />
+          <Property Name="GorevId" Type="uniqueidentifier" />
+          <Property Name="FirmaId" Type="uniqueidentifier" />
+          <Property Name="FirmaLokasyonId" Type="uniqueidentifier" />
+          <Property Name="EhliyetId" Type="uniqueidentifier" />
+          <Property Name="CalismaSekli" Type="char" MaxLength="9" />
+          <Property Name="OdemeTipi" Type="char" MaxLength="9" />
+          <Property Name="ExtraStr1" Type="nvarchar" MaxLength="100" />
+          <Property Name="Img_1" Type="nvarchar" MaxLength="300" />
+          <Property Name="Img_2" Type="nvarchar" MaxLength="300" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="IsDeleted" Type="bit" Nullable="false" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="DeleteDate" Type="datetime" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'dbcrm.dbo.FrwDevelopmentHistory' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="FrwDevelopmentHistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="300" />
+          <Property Name="Tarih" Type="date" />
+        </EntityType>
+        <EntityType Name="FrwGeneralContraint">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Enum" Type="nvarchar" MaxLength="30" />
+          <Property Name="Deger" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="FrwGeneralValues">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="UstId" Type="char" MaxLength="6" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="FrwMenu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="700" />
+          <Property Name="Image" Type="nvarchar" MaxLength="500" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="UstId" Type="int" />
+          <Property Name="IsMenu" Type="bit" />
+          <Property Name="NameSpace" Type="nvarchar" MaxLength="500" />
+          <Property Name="Dll" Type="nvarchar" MaxLength="500" />
+          <Property Name="Sira" Type="smallint" />
+        </EntityType>
+        <EntityType Name="FrwYetkiGrup">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="100" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="500" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="FrwYetkiGrupKullanici">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="YetkiGrupId" Type="int" />
+          <Property Name="DomainName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="FrwYetkiGrupMenu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="YetkiGrupId" Type="int" />
+          <Property Name="MenuId" Type="int" />
+          <Property Name="Acilklama" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="GnlBanka">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="char" Nullable="false" MaxLength="6" />
+          <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="GnlMarka">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="GnlModel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MarkaId" Type="int" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="SrvArac">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Plaka" Type="nvarchar" Nullable="false" MaxLength="9" />
+          <Property Name="LogoKodu" Type="nvarchar" MaxLength="10" />
+          <Property Name="YolcuKapasitesi" Type="int" />
+          <Property Name="Marka" Type="int" />
+          <Property Name="ModelYili" Type="int" />
+          <Property Name="Renk" Type="char" MaxLength="6" />
+          <Property Name="TedarikciId" Type="uniqueidentifier" />
+          <Property Name="GpsCihazId" Type="int" />
+          <Property Name="AracSahibiAd" Type="nvarchar" MaxLength="50" />
+          <Property Name="AracSahibiSoyad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cinsi" Type="nchar" MaxLength="10" />
+          <Property Name="Tipi" Type="int" />
+          <Property Name="MotorNo" Type="nvarchar" MaxLength="30" />
+          <Property Name="SasiNo" Type="nvarchar" MaxLength="30" />
+          <Property Name="NetAgirlik" Type="int" />
+          <Property Name="IstiapHaddi" Type="int" />
+          <Property Name="MotorGucu" Type="int" />
+          <Property Name="SilindirHacmi" Type="int" />
+          <Property Name="MuayeneTarihi" Type="date" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="date" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="DeleteDate" Type="date" />
+        </EntityType>
+        <EntityType Name="SrvGuzergah">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="GuzergahMainId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="30" />
+          <Property Name="Kod" Type="nvarchar" MaxLength="10" />
+          <Property Name="KisiSayisi" Type="int" />
+          <Property Name="Arac" Type="int" Nullable="false" />
+          <Property Name="Sofor" Type="uniqueidentifier" />
+          <Property Name="Hostes" Type="uniqueidentifier" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="IsDeleted" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SrvGuzergahMain">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ProjeId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="30" />
+          <Property Name="Kod" Type="nvarchar" MaxLength="10" />
+          <Property Name="Km" Type="int" />
+          <Property Name="MusteriFiyat" Type="numeric" Scale="2" />
+          <Property Name="TedarikFiyat" Type="numeric" Scale="2" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+        </EntityType>
+        <EntityType Name="SrvPersonel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ProjeId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="20" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="20" />
+          <Property Name="TcKimlikNo" Type="nvarchar" MaxLength="12" />
+          <Property Name="DogumTarihi" Type="date" />
+          <Property Name="DogumYeri" Type="nvarchar" MaxLength="20" />
+          <Property Name="Email" Type="nvarchar" MaxLength="30" />
+          <Property Name="Telefon" Type="nvarchar" MaxLength="15" />
+          <Property Name="Gsm" Type="nchar" MaxLength="15" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+          <Property Name="KanGrubu" Type="nvarchar" MaxLength="10" />
+          <Property Name="Il" Type="nvarchar" MaxLength="20" />
+          <Property Name="Ilce" Type="nvarchar" MaxLength="20" />
+          <Property Name="MedeniHali" Type="char" MaxLength="1" />
+          <Property Name="Uyruk" Type="nchar" MaxLength="10" />
+          <Property Name="La" Type="float" />
+          <Property Name="Lo" Type="float" />
+        </EntityType>
+        <EntityType Name="SrvProje">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="30" />
+          <Property Name="Kod" Type="nvarchar" MaxLength="10" />
+          <Property Name="Tipi" Type="char" MaxLength="6" />
+          <Property Name="ProjeLideri" Type="uniqueidentifier" />
+          <Property Name="FirmaYetkilisi" Type="nvarchar" MaxLength="30" />
+          <Property Name="FirmaYetkiliEmail" Type="nvarchar" MaxLength="30" />
+          <Property Name="FirmaYetkiliTel" Type="nvarchar" MaxLength="15" />
+          <Property Name="FirmaYetkiliFax" Type="nvarchar" MaxLength="15" />
+          <Property Name="WebSitesi" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sirket" Type="nchar" MaxLength="10" />
+          <Property Name="Grup" Type="nchar" MaxLength="10" />
+          <Property Name="Sektor" Type="nchar" MaxLength="10" />
+          <Property Name="Bolge" Type="nchar" MaxLength="10" />
+          <Property Name="SozlesmeyiYapan" Type="uniqueidentifier" />
+          <Property Name="SozlesmeBaslangicTarihi" Type="datetime" />
+          <Property Name="SozlesmeBitisTarihi" Type="datetime" />
+          <Property Name="FaturaHizmetKodu" Type="nvarchar" MaxLength="50" />
+          <Property Name="IskontoOrani" Type="numeric" Precision="4" Scale="2" />
+          <Property Name="FaturaGunu" Type="int" />
+          <Property Name="FaturaTipi" Type="int" />
+          <Property Name="MusteriTemsilcisi" Type="uniqueidentifier" />
+          <Property Name="HostesHakEdisTutari" Type="numeric" Scale="2" />
+          <Property Name="SoforHakEdisTutari" Type="numeric" Scale="2" />
+          <Property Name="AracBedelsizSeferSayisi" Type="int" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="DeleteDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="SrvTable">
+          <Key>
+            <PropertyRef Name="sdf" />
+          </Key>
+          <Property Name="sdf" Type="nchar" Nullable="false" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="SrvTedarikci">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CariKod" Type="nvarchar" MaxLength="20" />
+          <Property Name="CariAd" Type="nvarchar" MaxLength="20" />
+          <Property Name="YetkiliKisi" Type="nvarchar" MaxLength="20" />
+          <Property Name="VergiDairesi" Type="nvarchar" MaxLength="20" />
+          <Property Name="VergiNo" Type="nvarchar" MaxLength="20" />
+          <Property Name="Banka" Type="nvarchar" MaxLength="20" />
+          <Property Name="Sube" Type="nvarchar" MaxLength="20" />
+          <Property Name="HesapNo" Type="nvarchar" MaxLength="20" />
+          <Property Name="IBAN" Type="nvarchar" MaxLength="20" />
+          <Property Name="Telefon" Type="nvarchar" MaxLength="15" />
+          <Property Name="Gsm" Type="nvarchar" MaxLength="15" />
+          <Property Name="Fax" Type="nvarchar" MaxLength="15" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="300" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="500" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="IsDeleted" Type="bit" />
+          <Property Name="CreateUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreateDate" Type="date" />
+          <Property Name="DeleteUser" Type="nvarchar" MaxLength="20" />
+          <Property Name="DeleteDate" Type="date" />
+        </EntityType>
+        <EntityType Name="SrvYolcu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProjeId" Type="uniqueidentifier" />
+          <Property Name="YolcuTipi" Type="char" MaxLength="9" />
+          <Property Name="KimlikNo" Type="nvarchar" MaxLength="12" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="20" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="20" />
+          <Property Name="Durum" Type="smallint" />
+          <Property Name="DogumTarihi" Type="date" />
+          <Property Name="DogumYeri" Type="nvarchar" MaxLength="30" />
+          <Property Name="Cinsiyet" Type="bit" />
+          <Property Name="MedeniDurum" Type="char" MaxLength="1" />
+          <Property Name="KanGrubu" Type="nchar" MaxLength="10" />
+          <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+          <Property Name="TelefonNo" Type="nvarchar" MaxLength="12" />
+          <Property Name="GsmNo" Type="nvarchar" MaxLength="12" />
+          <Property Name="Sehir" Type="nchar" MaxLength="10" />
+          <Property Name="Il" Type="nchar" MaxLength="10" />
+          <Property Name="Ilce" Type="nchar" MaxLength="10" />
+          <Property Name="Adres" Type="nchar" MaxLength="10" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="SrvYolcuVeli">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="YolcuId" Type="int" Nullable="false" />
+          <Property Name="VeliTipi" Type="nchar" MaxLength="10" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="30" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="20" />
+          <Property Name="TcKimlikNo" Type="nvarchar" MaxLength="11" />
+          <Property Name="FirmaAdi" Type="nvarchar" MaxLength="50" />
+          <Property Name="YaptigiIs" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Telefon" Type="nvarchar" MaxLength="12" />
+          <Property Name="Adres" Type="nchar" MaxLength="10" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="300" />
+        </EntityType>
+        <Association Name="FK_CrmEhliyet_CrmPersonel">
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="1" />
+          <End Role="CrmEhliyet" Type="dbCrmModel.Store.CrmEhliyet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmEhliyet">
+              <PropertyRef Name="PersonelId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmBolum">
+          <End Role="CrmBolum" Type="dbCrmModel.Store.CrmBolum" Multiplicity="0..1" />
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmBolum">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="BolumId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmDepartman">
+          <End Role="CrmDepartman" Type="dbCrmModel.Store.CrmDepartman" Multiplicity="0..1" />
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmDepartman">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="DepartmanId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmFirma">
+          <End Role="CrmFirma" Type="dbCrmModel.Store.CrmFirma" Multiplicity="0..1" />
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmFirma">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="FirmaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmFirmaLokasyon">
+          <End Role="CrmFirmaLokasyon" Type="dbCrmModel.Store.CrmFirmaLokasyon" Multiplicity="0..1" />
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmFirmaLokasyon">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="FirmaLokasyonId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmGorev">
+          <End Role="CrmGorev" Type="dbCrmModel.Store.CrmGorev" Multiplicity="0..1" />
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmGorev">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="GorevId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GnlModel_GnlMarka">
+          <End Role="GnlMarka" Type="dbCrmModel.Store.GnlMarka" Multiplicity="1" />
+          <End Role="GnlModel" Type="dbCrmModel.Store.GnlModel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GnlMarka">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="GnlModel">
+              <PropertyRef Name="MarkaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvArac_GnlMarka">
+          <End Role="GnlMarka" Type="dbCrmModel.Store.GnlMarka" Multiplicity="0..1" />
+          <End Role="SrvArac" Type="dbCrmModel.Store.SrvArac" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GnlMarka">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvArac">
+              <PropertyRef Name="Marka" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvArac_GnlModel">
+          <End Role="GnlModel" Type="dbCrmModel.Store.GnlModel" Multiplicity="0..1" />
+          <End Role="SrvArac" Type="dbCrmModel.Store.SrvArac" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GnlModel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvArac">
+              <PropertyRef Name="Tipi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvArac_SrvTedarikci">
+          <End Role="SrvTedarikci" Type="dbCrmModel.Store.SrvTedarikci" Multiplicity="0..1" />
+          <End Role="SrvArac" Type="dbCrmModel.Store.SrvArac" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvTedarikci">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvArac">
+              <PropertyRef Name="TedarikciId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_Hostes">
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="0..1" />
+          <End Role="SrvGuzergah" Type="dbCrmModel.Store.SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="Hostes" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_Sofor">
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="0..1" />
+          <End Role="SrvGuzergah" Type="dbCrmModel.Store.SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="Sofor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_SrvArac">
+          <End Role="SrvArac" Type="dbCrmModel.Store.SrvArac" Multiplicity="1" />
+          <End Role="SrvGuzergah" Type="dbCrmModel.Store.SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvArac">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="Arac" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_SrvGuzergahMain">
+          <End Role="SrvGuzergahMain" Type="dbCrmModel.Store.SrvGuzergahMain" Multiplicity="1" />
+          <End Role="SrvGuzergah" Type="dbCrmModel.Store.SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvGuzergahMain">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="GuzergahMainId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergahMain_SrvProje">
+          <End Role="SrvProje" Type="dbCrmModel.Store.SrvProje" Multiplicity="1" />
+          <End Role="SrvGuzergahMain" Type="dbCrmModel.Store.SrvGuzergahMain" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvProje">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergahMain">
+              <PropertyRef Name="ProjeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_FrwGeneralValues">
+          <End Role="FrwGeneralValues" Type="dbCrmModel.Store.FrwGeneralValues" Multiplicity="0..1" />
+          <End Role="SrvProje" Type="dbCrmModel.Store.SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwGeneralValues">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="Tipi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_MusteriTemsilcisi">
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="0..1" />
+          <End Role="SrvProje" Type="dbCrmModel.Store.SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="MusteriTemsilcisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_ProjeLideri">
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="0..1" />
+          <End Role="SrvProje" Type="dbCrmModel.Store.SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="ProjeLideri" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_SozlesmeyiYapan">
+          <End Role="CrmPersonel" Type="dbCrmModel.Store.CrmPersonel" Multiplicity="0..1" />
+          <End Role="SrvProje" Type="dbCrmModel.Store.SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="SozlesmeyiYapan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_YetkiGrupKullanici_YetkiGrup">
+          <End Role="FrwYetkiGrup" Type="dbCrmModel.Store.FrwYetkiGrup" Multiplicity="0..1" />
+          <End Role="FrwYetkiGrupKullanici" Type="dbCrmModel.Store.FrwYetkiGrupKullanici" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwYetkiGrup">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FrwYetkiGrupKullanici">
+              <PropertyRef Name="YetkiGrupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_YetkiGrupMenu_Menu">
+          <End Role="FrwMenu" Type="dbCrmModel.Store.FrwMenu" Multiplicity="0..1" />
+          <End Role="FrwYetkiGrupMenu" Type="dbCrmModel.Store.FrwYetkiGrupMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwMenu">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FrwYetkiGrupMenu">
+              <PropertyRef Name="MenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_YetkiGrupMenu_YetkiGrup">
+          <End Role="FrwYetkiGrup" Type="dbCrmModel.Store.FrwYetkiGrup" Multiplicity="0..1" />
+          <End Role="FrwYetkiGrupMenu" Type="dbCrmModel.Store.FrwYetkiGrupMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwYetkiGrup">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FrwYetkiGrupMenu">
+              <PropertyRef Name="YetkiGrupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbCrmModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="dbCrmEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="CrmBolum" EntityType="dbCrmModel.CrmBolum" />
+          <EntitySet Name="CrmDepartman" EntityType="dbCrmModel.CrmDepartman" />
+          <EntitySet Name="CrmEhliyet" EntityType="dbCrmModel.CrmEhliyet" />
+          <EntitySet Name="CrmFirma" EntityType="dbCrmModel.CrmFirma" />
+          <EntitySet Name="CrmFirmaLokasyon" EntityType="dbCrmModel.CrmFirmaLokasyon" />
+          <EntitySet Name="CrmGorev" EntityType="dbCrmModel.CrmGorev" />
+          <EntitySet Name="CrmPersonel" EntityType="dbCrmModel.CrmPersonel" />
+          <EntitySet Name="FrwDevelopmentHistory" EntityType="dbCrmModel.FrwDevelopmentHistory" />
+          <EntitySet Name="FrwGeneralContraint" EntityType="dbCrmModel.FrwGeneralContraint" />
+          <EntitySet Name="FrwGeneralValues" EntityType="dbCrmModel.FrwGeneralValues" />
+          <EntitySet Name="FrwMenu" EntityType="dbCrmModel.FrwMenu" />
+          <EntitySet Name="FrwYetkiGrup" EntityType="dbCrmModel.FrwYetkiGrup" />
+          <EntitySet Name="FrwYetkiGrupKullanici" EntityType="dbCrmModel.FrwYetkiGrupKullanici" />
+          <EntitySet Name="FrwYetkiGrupMenu" EntityType="dbCrmModel.FrwYetkiGrupMenu" />
+          <EntitySet Name="GnlBanka" EntityType="dbCrmModel.GnlBanka" />
+          <EntitySet Name="GnlMarka" EntityType="dbCrmModel.GnlMarka" />
+          <EntitySet Name="GnlModel" EntityType="dbCrmModel.GnlModel" />
+          <EntitySet Name="SrvArac" EntityType="dbCrmModel.SrvArac" />
+          <EntitySet Name="SrvGuzergah" EntityType="dbCrmModel.SrvGuzergah" />
+          <EntitySet Name="SrvGuzergahMain" EntityType="dbCrmModel.SrvGuzergahMain" />
+          <EntitySet Name="SrvPersonel" EntityType="dbCrmModel.SrvPersonel" />
+          <EntitySet Name="SrvProje" EntityType="dbCrmModel.SrvProje" />
+          <EntitySet Name="SrvTable" EntityType="dbCrmModel.SrvTable" />
+          <EntitySet Name="SrvTedarikci" EntityType="dbCrmModel.SrvTedarikci" />
+          <EntitySet Name="SrvYolcu" EntityType="dbCrmModel.SrvYolcu" />
+          <EntitySet Name="SrvYolcuVeli" EntityType="dbCrmModel.SrvYolcuVeli" />
+          <AssociationSet Name="FK_CrmPersonel_CrmBolum" Association="dbCrmModel.FK_CrmPersonel_CrmBolum">
+            <End Role="CrmBolum" EntitySet="CrmBolum" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmDepartman" Association="dbCrmModel.FK_CrmPersonel_CrmDepartman">
+            <End Role="CrmDepartman" EntitySet="CrmDepartman" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmEhliyet_CrmPersonel" Association="dbCrmModel.FK_CrmEhliyet_CrmPersonel">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="CrmEhliyet" EntitySet="CrmEhliyet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmFirma" Association="dbCrmModel.FK_CrmPersonel_CrmFirma">
+            <End Role="CrmFirma" EntitySet="CrmFirma" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmFirmaLokasyon" Association="dbCrmModel.FK_CrmPersonel_CrmFirmaLokasyon">
+            <End Role="CrmFirmaLokasyon" EntitySet="CrmFirmaLokasyon" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CrmPersonel_CrmGorev" Association="dbCrmModel.FK_CrmPersonel_CrmGorev">
+            <End Role="CrmGorev" EntitySet="CrmGorev" />
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_Hostes" Association="dbCrmModel.FK_SrvGuzergah_Hostes">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_Sofor" Association="dbCrmModel.FK_SrvGuzergah_Sofor">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_MusteriTemsilcisi" Association="dbCrmModel.FK_SrvProje_MusteriTemsilcisi">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_ProjeLideri" Association="dbCrmModel.FK_SrvProje_ProjeLideri">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_SozlesmeyiYapan" Association="dbCrmModel.FK_SrvProje_SozlesmeyiYapan">
+            <End Role="CrmPersonel" EntitySet="CrmPersonel" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvProje_FrwGeneralValues" Association="dbCrmModel.FK_SrvProje_FrwGeneralValues">
+            <End Role="FrwGeneralValues" EntitySet="FrwGeneralValues" />
+            <End Role="SrvProje" EntitySet="SrvProje" />
+          </AssociationSet>
+          <AssociationSet Name="FK_YetkiGrupMenu_Menu" Association="dbCrmModel.FK_YetkiGrupMenu_Menu">
+            <End Role="FrwMenu" EntitySet="FrwMenu" />
+            <End Role="FrwYetkiGrupMenu" EntitySet="FrwYetkiGrupMenu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_YetkiGrupKullanici_YetkiGrup" Association="dbCrmModel.FK_YetkiGrupKullanici_YetkiGrup">
+            <End Role="FrwYetkiGrup" EntitySet="FrwYetkiGrup" />
+            <End Role="FrwYetkiGrupKullanici" EntitySet="FrwYetkiGrupKullanici" />
+          </AssociationSet>
+          <AssociationSet Name="FK_YetkiGrupMenu_YetkiGrup" Association="dbCrmModel.FK_YetkiGrupMenu_YetkiGrup">
+            <End Role="FrwYetkiGrup" EntitySet="FrwYetkiGrup" />
+            <End Role="FrwYetkiGrupMenu" EntitySet="FrwYetkiGrupMenu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GnlModel_GnlMarka" Association="dbCrmModel.FK_GnlModel_GnlMarka">
+            <End Role="GnlMarka" EntitySet="GnlMarka" />
+            <End Role="GnlModel" EntitySet="GnlModel" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvArac_GnlMarka" Association="dbCrmModel.FK_SrvArac_GnlMarka">
+            <End Role="GnlMarka" EntitySet="GnlMarka" />
+            <End Role="SrvArac" EntitySet="SrvArac" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvArac_GnlModel" Association="dbCrmModel.FK_SrvArac_GnlModel">
+            <End Role="GnlModel" EntitySet="GnlModel" />
+            <End Role="SrvArac" EntitySet="SrvArac" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvArac_SrvTedarikci" Association="dbCrmModel.FK_SrvArac_SrvTedarikci">
+            <End Role="SrvTedarikci" EntitySet="SrvTedarikci" />
+            <End Role="SrvArac" EntitySet="SrvArac" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_SrvArac" Association="dbCrmModel.FK_SrvGuzergah_SrvArac">
+            <End Role="SrvArac" EntitySet="SrvArac" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergah_SrvGuzergahMain" Association="dbCrmModel.FK_SrvGuzergah_SrvGuzergahMain">
+            <End Role="SrvGuzergahMain" EntitySet="SrvGuzergahMain" />
+            <End Role="SrvGuzergah" EntitySet="SrvGuzergah" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SrvGuzergahMain_SrvProje" Association="dbCrmModel.FK_SrvGuzergahMain_SrvProje">
+            <End Role="SrvProje" EntitySet="SrvProje" />
+            <End Role="SrvGuzergahMain" EntitySet="SrvGuzergahMain" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CrmBolum">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="Guid" Name="DepartmanId" />
+          <Property Type="String" Name="BolumEmailGrup" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="3" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_CrmPersonel_CrmBolum" FromRole="CrmBolum" ToRole="CrmPersonel" />
+        </EntityType>
+        <EntityType Name="CrmDepartman">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="3" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_CrmPersonel_CrmDepartman" FromRole="CrmDepartman" ToRole="CrmPersonel" />
+        </EntityType>
+        <EntityType Name="CrmEhliyet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="Guid" Name="PersonelId" Nullable="false" />
+          <Property Type="String" Name="Ad" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Soyad" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="VerilisIl" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="VerilisIlce" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="BelgeNo" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="VerilisTarihi" Precision="0" />
+          <Property Type="String" Name="Sinif" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Img_1" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Img_2" MaxLength="300" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_CrmEhliyet_CrmPersonel" FromRole="CrmEhliyet" ToRole="CrmPersonel" />
+        </EntityType>
+        <EntityType Name="CrmFirma">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="CariKod" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="3" />
+          <Property Type="String" Name="DeleteUser" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirma" FromRole="CrmFirma" ToRole="CrmPersonel" />
+        </EntityType>
+        <EntityType Name="CrmFirmaLokasyon">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Guid" Name="FirmaId" />
+          <Property Type="Int32" Name="Il" />
+          <Property Type="Int32" Name="Ilce" />
+          <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="3" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirmaLokasyon" FromRole="CrmFirmaLokasyon" ToRole="CrmPersonel" />
+        </EntityType>
+        <EntityType Name="CrmGorev">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="3" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_CrmPersonel_CrmGorev" FromRole="CrmGorev" ToRole="CrmPersonel" />
+        </EntityType>
+        <EntityType Name="CrmPersonel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="DomainName" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="CariKod" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Ad" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Soyad" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DogumTarihi" Precision="0" />
+          <Property Type="String" Name="TcKimlikNo" MaxLength="11" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="MedeniHali" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Adres" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Email" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmailIs" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TelefonNo" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="GsmNo" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TelefonNoIs" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Cinsiyet" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ProfilFoto" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="GirisTarihi" Precision="3" />
+          <Property Type="DateTime" Name="CikisTarihi" Precision="3" />
+          <Property Type="Guid" Name="BirinciYonetici" />
+          <Property Type="Guid" Name="IkinciYonetici" />
+          <Property Type="Guid" Name="DepartmanId" />
+          <Property Type="Guid" Name="BolumId" />
+          <Property Type="Guid" Name="GorevId" />
+          <Property Type="Guid" Name="FirmaId" />
+          <Property Type="Guid" Name="FirmaLokasyonId" />
+          <Property Type="Guid" Name="EhliyetId" />
+          <Property Type="String" Name="CalismaSekli" MaxLength="9" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="OdemeTipi" MaxLength="9" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="ExtraStr1" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Img_1" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Img_2" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" Nullable="false" />
+          <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="3" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CrmBolum" Relationship="dbCrmModel.FK_CrmPersonel_CrmBolum" FromRole="CrmPersonel" ToRole="CrmBolum" />
+          <NavigationProperty Name="CrmDepartman" Relationship="dbCrmModel.FK_CrmPersonel_CrmDepartman" FromRole="CrmPersonel" ToRole="CrmDepartman" />
+          <NavigationProperty Name="CrmEhliyet" Relationship="dbCrmModel.FK_CrmEhliyet_CrmPersonel" FromRole="CrmPersonel" ToRole="CrmEhliyet" />
+          <NavigationProperty Name="CrmFirma" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirma" FromRole="CrmPersonel" ToRole="CrmFirma" />
+          <NavigationProperty Name="CrmFirmaLokasyon" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirmaLokasyon" FromRole="CrmPersonel" ToRole="CrmFirmaLokasyon" />
+          <NavigationProperty Name="CrmGorev" Relationship="dbCrmModel.FK_CrmPersonel_CrmGorev" FromRole="CrmPersonel" ToRole="CrmGorev" />
+          <NavigationProperty Name="SrvGuzergah" Relationship="dbCrmModel.FK_SrvGuzergah_Hostes" FromRole="CrmPersonel" ToRole="SrvGuzergah" />
+          <NavigationProperty Name="SrvGuzergah1" Relationship="dbCrmModel.FK_SrvGuzergah_Sofor" FromRole="CrmPersonel" ToRole="SrvGuzergah" />
+          <NavigationProperty Name="SrvProje" Relationship="dbCrmModel.FK_SrvProje_MusteriTemsilcisi" FromRole="CrmPersonel" ToRole="SrvProje" />
+          <NavigationProperty Name="SrvProje1" Relationship="dbCrmModel.FK_SrvProje_ProjeLideri" FromRole="CrmPersonel" ToRole="SrvProje" />
+          <NavigationProperty Name="SrvProje2" Relationship="dbCrmModel.FK_SrvProje_SozlesmeyiYapan" FromRole="CrmPersonel" ToRole="SrvProje" />
+        </EntityType>
+        <EntityType Name="FrwDevelopmentHistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="Tarih" Precision="0" />
+        </EntityType>
+        <EntityType Name="FrwGeneralContraint">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Enum" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Deger" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FrwGeneralValues">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="String" Name="Id" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Ad" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="UstId" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Boolean" Name="IsActive" />
+          <NavigationProperty Name="SrvProje" Relationship="dbCrmModel.FK_SrvProje_FrwGeneralValues" FromRole="FrwGeneralValues" ToRole="SrvProje" />
+        </EntityType>
+        <EntityType Name="FrwMenu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="700" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Image" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Int32" Name="UstId" />
+          <Property Type="Boolean" Name="IsMenu" />
+          <Property Type="String" Name="NameSpace" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Dll" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Int16" Name="Sira" />
+          <NavigationProperty Name="FrwYetkiGrupMenu" Relationship="dbCrmModel.FK_YetkiGrupMenu_Menu" FromRole="FrwMenu" ToRole="FrwYetkiGrupMenu" />
+        </EntityType>
+        <EntityType Name="FrwYetkiGrup">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Ad" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <NavigationProperty Name="FrwYetkiGrupKullanici" Relationship="dbCrmModel.FK_YetkiGrupKullanici_YetkiGrup" FromRole="FrwYetkiGrup" ToRole="FrwYetkiGrupKullanici" />
+          <NavigationProperty Name="FrwYetkiGrupMenu" Relationship="dbCrmModel.FK_YetkiGrupMenu_YetkiGrup" FromRole="FrwYetkiGrup" ToRole="FrwYetkiGrupMenu" />
+        </EntityType>
+        <EntityType Name="FrwYetkiGrupKullanici">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="YetkiGrupId" />
+          <Property Type="String" Name="DomainName" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="FrwYetkiGrup" Relationship="dbCrmModel.FK_YetkiGrupKullanici_YetkiGrup" FromRole="FrwYetkiGrupKullanici" ToRole="FrwYetkiGrup" />
+        </EntityType>
+        <EntityType Name="FrwYetkiGrupMenu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="YetkiGrupId" />
+          <Property Type="Int32" Name="MenuId" />
+          <Property Type="String" Name="Acilklama" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="FrwMenu" Relationship="dbCrmModel.FK_YetkiGrupMenu_Menu" FromRole="FrwYetkiGrupMenu" ToRole="FrwMenu" />
+          <NavigationProperty Name="FrwYetkiGrup" Relationship="dbCrmModel.FK_YetkiGrupMenu_YetkiGrup" FromRole="FrwYetkiGrupMenu" ToRole="FrwYetkiGrup" />
+        </EntityType>
+        <EntityType Name="GnlBanka">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="String" Name="Id" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Ad" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+        </EntityType>
+        <EntityType Name="GnlMarka">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Ad" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <NavigationProperty Name="GnlModel" Relationship="dbCrmModel.FK_GnlModel_GnlMarka" FromRole="GnlMarka" ToRole="GnlModel" />
+          <NavigationProperty Name="SrvArac" Relationship="dbCrmModel.FK_SrvArac_GnlMarka" FromRole="GnlMarka" ToRole="SrvArac" />
+        </EntityType>
+        <EntityType Name="GnlModel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="MarkaId" Nullable="false" />
+          <Property Type="String" Name="Ad" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <NavigationProperty Name="GnlMarka" Relationship="dbCrmModel.FK_GnlModel_GnlMarka" FromRole="GnlModel" ToRole="GnlMarka" />
+          <NavigationProperty Name="SrvArac" Relationship="dbCrmModel.FK_SrvArac_GnlModel" FromRole="GnlModel" ToRole="SrvArac" />
+        </EntityType>
+        <EntityType Name="SrvArac">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Plaka" Nullable="false" MaxLength="9" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="LogoKodu" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="YolcuKapasitesi" />
+          <Property Type="Int32" Name="Marka" />
+          <Property Type="Int32" Name="ModelYili" />
+          <Property Type="String" Name="Renk" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Guid" Name="TedarikciId" />
+          <Property Type="Int32" Name="GpsCihazId" />
+          <Property Type="String" Name="AracSahibiAd" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="AracSahibiSoyad" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Cinsi" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="Int32" Name="Tipi" />
+          <Property Type="String" Name="MotorNo" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="SasiNo" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="NetAgirlik" />
+          <Property Type="Int32" Name="IstiapHaddi" />
+          <Property Type="Int32" Name="MotorGucu" />
+          <Property Type="Int32" Name="SilindirHacmi" />
+          <Property Type="DateTime" Name="MuayeneTarihi" Precision="0" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="0" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="0" />
+          <NavigationProperty Name="GnlMarka" Relationship="dbCrmModel.FK_SrvArac_GnlMarka" FromRole="SrvArac" ToRole="GnlMarka" />
+          <NavigationProperty Name="GnlModel" Relationship="dbCrmModel.FK_SrvArac_GnlModel" FromRole="SrvArac" ToRole="GnlModel" />
+          <NavigationProperty Name="SrvTedarikci" Relationship="dbCrmModel.FK_SrvArac_SrvTedarikci" FromRole="SrvArac" ToRole="SrvTedarikci" />
+          <NavigationProperty Name="SrvGuzergah" Relationship="dbCrmModel.FK_SrvGuzergah_SrvArac" FromRole="SrvArac" ToRole="SrvGuzergah" />
+        </EntityType>
+        <EntityType Name="SrvGuzergah">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="Guid" Name="GuzergahMainId" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Kod" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="KisiSayisi" />
+          <Property Type="Int32" Name="Arac" Nullable="false" />
+          <Property Type="Guid" Name="Sofor" />
+          <Property Type="Guid" Name="Hostes" />
+          <Property Type="Boolean" Name="IsActive" Nullable="false" />
+          <Property Type="Boolean" Name="IsDeleted" Nullable="false" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_SrvGuzergah_Hostes" FromRole="SrvGuzergah" ToRole="CrmPersonel" />
+          <NavigationProperty Name="CrmPersonel1" Relationship="dbCrmModel.FK_SrvGuzergah_Sofor" FromRole="SrvGuzergah" ToRole="CrmPersonel" />
+          <NavigationProperty Name="SrvArac" Relationship="dbCrmModel.FK_SrvGuzergah_SrvArac" FromRole="SrvGuzergah" ToRole="SrvArac" />
+          <NavigationProperty Name="SrvGuzergahMain" Relationship="dbCrmModel.FK_SrvGuzergah_SrvGuzergahMain" FromRole="SrvGuzergah" ToRole="SrvGuzergahMain" />
+        </EntityType>
+        <EntityType Name="SrvGuzergahMain">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="Guid" Name="ProjeId" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Kod" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Km" />
+          <Property Type="Decimal" Name="MusteriFiyat" Precision="18" Scale="2" />
+          <Property Type="Decimal" Name="TedarikFiyat" Precision="18" Scale="2" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <NavigationProperty Name="SrvGuzergah" Relationship="dbCrmModel.FK_SrvGuzergah_SrvGuzergahMain" FromRole="SrvGuzergahMain" ToRole="SrvGuzergah" />
+          <NavigationProperty Name="SrvProje" Relationship="dbCrmModel.FK_SrvGuzergahMain_SrvProje" FromRole="SrvGuzergahMain" ToRole="SrvProje" />
+        </EntityType>
+        <EntityType Name="SrvPersonel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="Guid" Name="ProjeId" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Soyad" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TcKimlikNo" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DogumTarihi" Precision="0" />
+          <Property Type="String" Name="DogumYeri" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Email" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Telefon" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Gsm" MaxLength="15" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Adres" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="KanGrubu" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Il" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Ilce" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="MedeniHali" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="Uyruk" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="Double" Name="La" />
+          <Property Type="Double" Name="Lo" />
+        </EntityType>
+        <EntityType Name="SrvProje">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Ad" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Kod" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Tipi" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Type="Guid" Name="ProjeLideri" />
+          <Property Type="String" Name="FirmaYetkilisi" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="FirmaYetkiliEmail" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="FirmaYetkiliTel" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="FirmaYetkiliFax" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="WebSitesi" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Sirket" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Grup" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Sektor" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Bolge" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="Guid" Name="SozlesmeyiYapan" />
+          <Property Type="DateTime" Name="SozlesmeBaslangicTarihi" Precision="3" />
+          <Property Type="DateTime" Name="SozlesmeBitisTarihi" Precision="3" />
+          <Property Type="String" Name="FaturaHizmetKodu" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="IskontoOrani" Precision="4" Scale="2" />
+          <Property Type="Int32" Name="FaturaGunu" />
+          <Property Type="Int32" Name="FaturaTipi" />
+          <Property Type="Guid" Name="MusteriTemsilcisi" />
+          <Property Type="Decimal" Name="HostesHakEdisTutari" Precision="18" Scale="2" />
+          <Property Type="Decimal" Name="SoforHakEdisTutari" Precision="18" Scale="2" />
+          <Property Type="Int32" Name="AracBedelsizSeferSayisi" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="3" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+          <NavigationProperty Name="CrmPersonel" Relationship="dbCrmModel.FK_SrvProje_MusteriTemsilcisi" FromRole="SrvProje" ToRole="CrmPersonel" />
+          <NavigationProperty Name="CrmPersonel1" Relationship="dbCrmModel.FK_SrvProje_ProjeLideri" FromRole="SrvProje" ToRole="CrmPersonel" />
+          <NavigationProperty Name="CrmPersonel2" Relationship="dbCrmModel.FK_SrvProje_SozlesmeyiYapan" FromRole="SrvProje" ToRole="CrmPersonel" />
+          <NavigationProperty Name="FrwGeneralValues" Relationship="dbCrmModel.FK_SrvProje_FrwGeneralValues" FromRole="SrvProje" ToRole="FrwGeneralValues" />
+          <NavigationProperty Name="SrvGuzergahMain" Relationship="dbCrmModel.FK_SrvGuzergahMain_SrvProje" FromRole="SrvProje" ToRole="SrvGuzergahMain" />
+        </EntityType>
+        <EntityType Name="SrvTable">
+          <Key>
+            <PropertyRef Name="sdf" />
+          </Key>
+          <Property Type="String" Name="sdf" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="SrvTedarikci">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Guid" Name="Id" Nullable="false" />
+          <Property Type="String" Name="CariKod" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="CariAd" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="YetkiliKisi" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="VergiDairesi" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="VergiNo" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Banka" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Sube" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="HesapNo" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="IBAN" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Telefon" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Gsm" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Fax" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Adres" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="Boolean" Name="IsDeleted" />
+          <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreateDate" Precision="0" />
+          <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DeleteDate" Precision="0" />
+          <NavigationProperty Name="SrvArac" Relationship="dbCrmModel.FK_SrvArac_SrvTedarikci" FromRole="SrvTedarikci" ToRole="SrvArac" />
+        </EntityType>
+        <EntityType Name="SrvYolcu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Guid" Name="ProjeId" />
+          <Property Type="String" Name="YolcuTipi" MaxLength="9" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="KimlikNo" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Ad" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Soyad" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="Int16" Name="Durum" />
+          <Property Type="DateTime" Name="DogumTarihi" Precision="0" />
+          <Property Type="String" Name="DogumYeri" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Cinsiyet" />
+          <Property Type="String" Name="MedeniDurum" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Type="String" Name="KanGrubu" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="EMail" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TelefonNo" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="GsmNo" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Sehir" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Il" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Ilce" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Adres" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="SrvYolcuVeli">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="YolcuId" Nullable="false" />
+          <Property Type="String" Name="VeliTipi" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Ad" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Soyad" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TcKimlikNo" MaxLength="11" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="FirmaAdi" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="YaptigiIs" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Email" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Telefon" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Adres" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_CrmPersonel_CrmBolum">
+          <End Type="dbCrmModel.CrmBolum" Role="CrmBolum" Multiplicity="0..1" />
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmBolum">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="BolumId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmDepartman">
+          <End Type="dbCrmModel.CrmDepartman" Role="CrmDepartman" Multiplicity="0..1" />
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmDepartman">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="DepartmanId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmEhliyet_CrmPersonel">
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="1" />
+          <End Type="dbCrmModel.CrmEhliyet" Role="CrmEhliyet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmEhliyet">
+              <PropertyRef Name="PersonelId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmFirma">
+          <End Type="dbCrmModel.CrmFirma" Role="CrmFirma" Multiplicity="0..1" />
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmFirma">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="FirmaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmFirmaLokasyon">
+          <End Type="dbCrmModel.CrmFirmaLokasyon" Role="CrmFirmaLokasyon" Multiplicity="0..1" />
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmFirmaLokasyon">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="FirmaLokasyonId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CrmPersonel_CrmGorev">
+          <End Type="dbCrmModel.CrmGorev" Role="CrmGorev" Multiplicity="0..1" />
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmGorev">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CrmPersonel">
+              <PropertyRef Name="GorevId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_Hostes">
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvGuzergah" Role="SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="Hostes" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_Sofor">
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvGuzergah" Role="SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="Sofor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_MusteriTemsilcisi">
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvProje" Role="SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="MusteriTemsilcisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_ProjeLideri">
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvProje" Role="SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="ProjeLideri" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_SozlesmeyiYapan">
+          <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvProje" Role="SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CrmPersonel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="SozlesmeyiYapan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvProje_FrwGeneralValues">
+          <End Type="dbCrmModel.FrwGeneralValues" Role="FrwGeneralValues" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvProje" Role="SrvProje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwGeneralValues">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvProje">
+              <PropertyRef Name="Tipi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_YetkiGrupMenu_Menu">
+          <End Type="dbCrmModel.FrwMenu" Role="FrwMenu" Multiplicity="0..1" />
+          <End Type="dbCrmModel.FrwYetkiGrupMenu" Role="FrwYetkiGrupMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwMenu">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FrwYetkiGrupMenu">
+              <PropertyRef Name="MenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_YetkiGrupKullanici_YetkiGrup">
+          <End Type="dbCrmModel.FrwYetkiGrup" Role="FrwYetkiGrup" Multiplicity="0..1" />
+          <End Type="dbCrmModel.FrwYetkiGrupKullanici" Role="FrwYetkiGrupKullanici" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwYetkiGrup">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FrwYetkiGrupKullanici">
+              <PropertyRef Name="YetkiGrupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_YetkiGrupMenu_YetkiGrup">
+          <End Type="dbCrmModel.FrwYetkiGrup" Role="FrwYetkiGrup" Multiplicity="0..1" />
+          <End Type="dbCrmModel.FrwYetkiGrupMenu" Role="FrwYetkiGrupMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FrwYetkiGrup">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FrwYetkiGrupMenu">
+              <PropertyRef Name="YetkiGrupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GnlModel_GnlMarka">
+          <End Type="dbCrmModel.GnlMarka" Role="GnlMarka" Multiplicity="1" />
+          <End Type="dbCrmModel.GnlModel" Role="GnlModel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GnlMarka">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="GnlModel">
+              <PropertyRef Name="MarkaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvArac_GnlMarka">
+          <End Type="dbCrmModel.GnlMarka" Role="GnlMarka" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvArac" Role="SrvArac" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GnlMarka">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvArac">
+              <PropertyRef Name="Marka" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvArac_GnlModel">
+          <End Type="dbCrmModel.GnlModel" Role="GnlModel" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvArac" Role="SrvArac" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GnlModel">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvArac">
+              <PropertyRef Name="Tipi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvArac_SrvTedarikci">
+          <End Type="dbCrmModel.SrvTedarikci" Role="SrvTedarikci" Multiplicity="0..1" />
+          <End Type="dbCrmModel.SrvArac" Role="SrvArac" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvTedarikci">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvArac">
+              <PropertyRef Name="TedarikciId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_SrvArac">
+          <End Type="dbCrmModel.SrvArac" Role="SrvArac" Multiplicity="1" />
+          <End Type="dbCrmModel.SrvGuzergah" Role="SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvArac">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="Arac" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergah_SrvGuzergahMain">
+          <End Type="dbCrmModel.SrvGuzergahMain" Role="SrvGuzergahMain" Multiplicity="1" />
+          <End Type="dbCrmModel.SrvGuzergah" Role="SrvGuzergah" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvGuzergahMain">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergah">
+              <PropertyRef Name="GuzergahMainId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SrvGuzergahMain_SrvProje">
+          <End Type="dbCrmModel.SrvProje" Role="SrvProje" Multiplicity="1" />
+          <End Type="dbCrmModel.SrvGuzergahMain" Role="SrvGuzergahMain" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SrvProje">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SrvGuzergahMain">
+              <PropertyRef Name="ProjeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbCrmModelStoreContainer" CdmEntityContainer="dbCrmEntities">
+          <EntitySetMapping Name="CrmBolum">
+            <EntityTypeMapping TypeName="dbCrmModel.CrmBolum">
+              <MappingFragment StoreEntitySet="CrmBolum">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+                <ScalarProperty Name="BolumEmailGrup" ColumnName="BolumEmailGrup" />
+                <ScalarProperty Name="DepartmanId" ColumnName="DepartmanId" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CrmDepartman">
+            <EntityTypeMapping TypeName="dbCrmModel.CrmDepartman">
+              <MappingFragment StoreEntitySet="CrmDepartman">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CrmEhliyet">
+            <EntityTypeMapping TypeName="dbCrmModel.CrmEhliyet">
+              <MappingFragment StoreEntitySet="CrmEhliyet">
+                <ScalarProperty Name="Img_2" ColumnName="Img_2" />
+                <ScalarProperty Name="Img_1" ColumnName="Img_1" />
+                <ScalarProperty Name="Sinif" ColumnName="Sinif" />
+                <ScalarProperty Name="VerilisTarihi" ColumnName="VerilisTarihi" />
+                <ScalarProperty Name="BelgeNo" ColumnName="BelgeNo" />
+                <ScalarProperty Name="VerilisIlce" ColumnName="VerilisIlce" />
+                <ScalarProperty Name="VerilisIl" ColumnName="VerilisIl" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="PersonelId" ColumnName="PersonelId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CrmFirma">
+            <EntityTypeMapping TypeName="dbCrmModel.CrmFirma">
+              <MappingFragment StoreEntitySet="CrmFirma">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+                <ScalarProperty Name="CariKod" ColumnName="CariKod" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CrmFirmaLokasyon">
+            <EntityTypeMapping TypeName="dbCrmModel.CrmFirmaLokasyon">
+              <MappingFragment StoreEntitySet="CrmFirmaLokasyon">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+                <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+                <ScalarProperty Name="Il" ColumnName="Il" />
+                <ScalarProperty Name="FirmaId" ColumnName="FirmaId" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CrmGorev">
+            <EntityTypeMapping TypeName="dbCrmModel.CrmGorev">
+              <MappingFragment StoreEntitySet="CrmGorev">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CrmPersonel">
+            <EntityTypeMapping TypeName="dbCrmModel.CrmPersonel">
+              <MappingFragment StoreEntitySet="CrmPersonel">
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Img_2" ColumnName="Img_2" />
+                <ScalarProperty Name="Img_1" ColumnName="Img_1" />
+                <ScalarProperty Name="ExtraStr1" ColumnName="ExtraStr1" />
+                <ScalarProperty Name="OdemeTipi" ColumnName="OdemeTipi" />
+                <ScalarProperty Name="CalismaSekli" ColumnName="CalismaSekli" />
+                <ScalarProperty Name="EhliyetId" ColumnName="EhliyetId" />
+                <ScalarProperty Name="FirmaLokasyonId" ColumnName="FirmaLokasyonId" />
+                <ScalarProperty Name="FirmaId" ColumnName="FirmaId" />
+                <ScalarProperty Name="GorevId" ColumnName="GorevId" />
+                <ScalarProperty Name="BolumId" ColumnName="BolumId" />
+                <ScalarProperty Name="DepartmanId" ColumnName="DepartmanId" />
+                <ScalarProperty Name="IkinciYonetici" ColumnName="IkinciYonetici" />
+                <ScalarProperty Name="BirinciYonetici" ColumnName="BirinciYonetici" />
+                <ScalarProperty Name="CikisTarihi" ColumnName="CikisTarihi" />
+                <ScalarProperty Name="GirisTarihi" ColumnName="GirisTarihi" />
+                <ScalarProperty Name="ProfilFoto" ColumnName="ProfilFoto" />
+                <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+                <ScalarProperty Name="TelefonNoIs" ColumnName="TelefonNoIs" />
+                <ScalarProperty Name="GsmNo" ColumnName="GsmNo" />
+                <ScalarProperty Name="TelefonNo" ColumnName="TelefonNo" />
+                <ScalarProperty Name="EmailIs" ColumnName="EmailIs" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="MedeniHali" ColumnName="MedeniHali" />
+                <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+                <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="CariKod" ColumnName="CariKod" />
+                <ScalarProperty Name="DomainName" ColumnName="DomainName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FrwDevelopmentHistory">
+            <EntityTypeMapping TypeName="dbCrmModel.FrwDevelopmentHistory">
+              <MappingFragment StoreEntitySet="FrwDevelopmentHistory">
+                <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FrwGeneralContraint">
+            <EntityTypeMapping TypeName="dbCrmModel.FrwGeneralContraint">
+              <MappingFragment StoreEntitySet="FrwGeneralContraint">
+                <ScalarProperty Name="Deger" ColumnName="Deger" />
+                <ScalarProperty Name="Enum" ColumnName="Enum" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FrwGeneralValues">
+            <EntityTypeMapping TypeName="dbCrmModel.FrwGeneralValues">
+              <MappingFragment StoreEntitySet="FrwGeneralValues">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="UstId" ColumnName="UstId" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FrwMenu">
+            <EntityTypeMapping TypeName="dbCrmModel.FrwMenu">
+              <MappingFragment StoreEntitySet="FrwMenu">
+                <ScalarProperty Name="Sira" ColumnName="Sira" />
+                <ScalarProperty Name="Dll" ColumnName="Dll" />
+                <ScalarProperty Name="NameSpace" ColumnName="NameSpace" />
+                <ScalarProperty Name="IsMenu" ColumnName="IsMenu" />
+                <ScalarProperty Name="UstId" ColumnName="UstId" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FrwYetkiGrup">
+            <EntityTypeMapping TypeName="dbCrmModel.FrwYetkiGrup">
+              <MappingFragment StoreEntitySet="FrwYetkiGrup">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FrwYetkiGrupKullanici">
+            <EntityTypeMapping TypeName="dbCrmModel.FrwYetkiGrupKullanici">
+              <MappingFragment StoreEntitySet="FrwYetkiGrupKullanici">
+                <ScalarProperty Name="DomainName" ColumnName="DomainName" />
+                <ScalarProperty Name="YetkiGrupId" ColumnName="YetkiGrupId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FrwYetkiGrupMenu">
+            <EntityTypeMapping TypeName="dbCrmModel.FrwYetkiGrupMenu">
+              <MappingFragment StoreEntitySet="FrwYetkiGrupMenu">
+                <ScalarProperty Name="Acilklama" ColumnName="Acilklama" />
+                <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+                <ScalarProperty Name="YetkiGrupId" ColumnName="YetkiGrupId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GnlBanka">
+            <EntityTypeMapping TypeName="dbCrmModel.GnlBanka">
+              <MappingFragment StoreEntitySet="GnlBanka">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GnlMarka">
+            <EntityTypeMapping TypeName="dbCrmModel.GnlMarka">
+              <MappingFragment StoreEntitySet="GnlMarka">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GnlModel">
+            <EntityTypeMapping TypeName="dbCrmModel.GnlModel">
+              <MappingFragment StoreEntitySet="GnlModel">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="MarkaId" ColumnName="MarkaId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvArac">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvArac">
+              <MappingFragment StoreEntitySet="SrvArac">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="MuayeneTarihi" ColumnName="MuayeneTarihi" />
+                <ScalarProperty Name="SilindirHacmi" ColumnName="SilindirHacmi" />
+                <ScalarProperty Name="MotorGucu" ColumnName="MotorGucu" />
+                <ScalarProperty Name="IstiapHaddi" ColumnName="IstiapHaddi" />
+                <ScalarProperty Name="NetAgirlik" ColumnName="NetAgirlik" />
+                <ScalarProperty Name="SasiNo" ColumnName="SasiNo" />
+                <ScalarProperty Name="MotorNo" ColumnName="MotorNo" />
+                <ScalarProperty Name="Tipi" ColumnName="Tipi" />
+                <ScalarProperty Name="Cinsi" ColumnName="Cinsi" />
+                <ScalarProperty Name="AracSahibiSoyad" ColumnName="AracSahibiSoyad" />
+                <ScalarProperty Name="AracSahibiAd" ColumnName="AracSahibiAd" />
+                <ScalarProperty Name="GpsCihazId" ColumnName="GpsCihazId" />
+                <ScalarProperty Name="TedarikciId" ColumnName="TedarikciId" />
+                <ScalarProperty Name="Renk" ColumnName="Renk" />
+                <ScalarProperty Name="ModelYili" ColumnName="ModelYili" />
+                <ScalarProperty Name="Marka" ColumnName="Marka" />
+                <ScalarProperty Name="YolcuKapasitesi" ColumnName="YolcuKapasitesi" />
+                <ScalarProperty Name="LogoKodu" ColumnName="LogoKodu" />
+                <ScalarProperty Name="Plaka" ColumnName="Plaka" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvGuzergah">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvGuzergah">
+              <MappingFragment StoreEntitySet="SrvGuzergah">
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Hostes" ColumnName="Hostes" />
+                <ScalarProperty Name="Sofor" ColumnName="Sofor" />
+                <ScalarProperty Name="Arac" ColumnName="Arac" />
+                <ScalarProperty Name="KisiSayisi" ColumnName="KisiSayisi" />
+                <ScalarProperty Name="Kod" ColumnName="Kod" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="GuzergahMainId" ColumnName="GuzergahMainId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvGuzergahMain">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvGuzergahMain">
+              <MappingFragment StoreEntitySet="SrvGuzergahMain">
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="TedarikFiyat" ColumnName="TedarikFiyat" />
+                <ScalarProperty Name="MusteriFiyat" ColumnName="MusteriFiyat" />
+                <ScalarProperty Name="Km" ColumnName="Km" />
+                <ScalarProperty Name="Kod" ColumnName="Kod" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="ProjeId" ColumnName="ProjeId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvPersonel">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvPersonel">
+              <MappingFragment StoreEntitySet="SrvPersonel">
+                <ScalarProperty Name="Lo" ColumnName="Lo" />
+                <ScalarProperty Name="La" ColumnName="La" />
+                <ScalarProperty Name="Uyruk" ColumnName="Uyruk" />
+                <ScalarProperty Name="MedeniHali" ColumnName="MedeniHali" />
+                <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+                <ScalarProperty Name="Il" ColumnName="Il" />
+                <ScalarProperty Name="KanGrubu" ColumnName="KanGrubu" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Gsm" ColumnName="Gsm" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="DogumYeri" ColumnName="DogumYeri" />
+                <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+                <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="ProjeId" ColumnName="ProjeId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvProje">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvProje">
+              <MappingFragment StoreEntitySet="SrvProje">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="AracBedelsizSeferSayisi" ColumnName="AracBedelsizSeferSayisi" />
+                <ScalarProperty Name="SoforHakEdisTutari" ColumnName="SoforHakEdisTutari" />
+                <ScalarProperty Name="HostesHakEdisTutari" ColumnName="HostesHakEdisTutari" />
+                <ScalarProperty Name="MusteriTemsilcisi" ColumnName="MusteriTemsilcisi" />
+                <ScalarProperty Name="FaturaTipi" ColumnName="FaturaTipi" />
+                <ScalarProperty Name="FaturaGunu" ColumnName="FaturaGunu" />
+                <ScalarProperty Name="IskontoOrani" ColumnName="IskontoOrani" />
+                <ScalarProperty Name="FaturaHizmetKodu" ColumnName="FaturaHizmetKodu" />
+                <ScalarProperty Name="SozlesmeBitisTarihi" ColumnName="SozlesmeBitisTarihi" />
+                <ScalarProperty Name="SozlesmeBaslangicTarihi" ColumnName="SozlesmeBaslangicTarihi" />
+                <ScalarProperty Name="SozlesmeyiYapan" ColumnName="SozlesmeyiYapan" />
+                <ScalarProperty Name="Bolge" ColumnName="Bolge" />
+                <ScalarProperty Name="Sektor" ColumnName="Sektor" />
+                <ScalarProperty Name="Grup" ColumnName="Grup" />
+                <ScalarProperty Name="Sirket" ColumnName="Sirket" />
+                <ScalarProperty Name="WebSitesi" ColumnName="WebSitesi" />
+                <ScalarProperty Name="FirmaYetkiliFax" ColumnName="FirmaYetkiliFax" />
+                <ScalarProperty Name="FirmaYetkiliTel" ColumnName="FirmaYetkiliTel" />
+                <ScalarProperty Name="FirmaYetkiliEmail" ColumnName="FirmaYetkiliEmail" />
+                <ScalarProperty Name="FirmaYetkilisi" ColumnName="FirmaYetkilisi" />
+                <ScalarProperty Name="ProjeLideri" ColumnName="ProjeLideri" />
+                <ScalarProperty Name="Tipi" ColumnName="Tipi" />
+                <ScalarProperty Name="Kod" ColumnName="Kod" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvTable">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvTable">
+              <MappingFragment StoreEntitySet="SrvTable">
+                <ScalarProperty Name="sdf" ColumnName="sdf" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvTedarikci">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvTedarikci">
+              <MappingFragment StoreEntitySet="SrvTedarikci">
+                <ScalarProperty Name="DeleteDate" ColumnName="DeleteDate" />
+                <ScalarProperty Name="DeleteUser" ColumnName="DeleteUser" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Gsm" ColumnName="Gsm" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+                <ScalarProperty Name="HesapNo" ColumnName="HesapNo" />
+                <ScalarProperty Name="Sube" ColumnName="Sube" />
+                <ScalarProperty Name="Banka" ColumnName="Banka" />
+                <ScalarProperty Name="VergiNo" ColumnName="VergiNo" />
+                <ScalarProperty Name="VergiDairesi" ColumnName="VergiDairesi" />
+                <ScalarProperty Name="YetkiliKisi" ColumnName="YetkiliKisi" />
+                <ScalarProperty Name="CariAd" ColumnName="CariAd" />
+                <ScalarProperty Name="CariKod" ColumnName="CariKod" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvYolcu">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvYolcu">
+              <MappingFragment StoreEntitySet="SrvYolcu">
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+                <ScalarProperty Name="Il" ColumnName="Il" />
+                <ScalarProperty Name="Sehir" ColumnName="Sehir" />
+                <ScalarProperty Name="GsmNo" ColumnName="GsmNo" />
+                <ScalarProperty Name="TelefonNo" ColumnName="TelefonNo" />
+                <ScalarProperty Name="EMail" ColumnName="EMail" />
+                <ScalarProperty Name="KanGrubu" ColumnName="KanGrubu" />
+                <ScalarProperty Name="MedeniDurum" ColumnName="MedeniDurum" />
+                <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+                <ScalarProperty Name="DogumYeri" ColumnName="DogumYeri" />
+                <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="KimlikNo" ColumnName="KimlikNo" />
+                <ScalarProperty Name="YolcuTipi" ColumnName="YolcuTipi" />
+                <ScalarProperty Name="ProjeId" ColumnName="ProjeId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SrvYolcuVeli">
+            <EntityTypeMapping TypeName="dbCrmModel.SrvYolcuVeli">
+              <MappingFragment StoreEntitySet="SrvYolcuVeli">
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="YaptigiIs" ColumnName="YaptigiIs" />
+                <ScalarProperty Name="FirmaAdi" ColumnName="FirmaAdi" />
+                <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="VeliTipi" ColumnName="VeliTipi" />
+                <ScalarProperty Name="YolcuId" ColumnName="YolcuId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Default" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

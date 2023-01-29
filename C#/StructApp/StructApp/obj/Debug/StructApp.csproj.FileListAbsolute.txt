@@ -1,0 +1,9 @@
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\bin\Debug\StructApp.exe.config
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\bin\Debug\StructApp.exe
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\bin\Debug\StructApp.pdb
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\obj\Debug\StructApp.csprojResolveAssemblyReference.cache
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\obj\Debug\StructApp.Properties.Resources.resources
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\obj\Debug\StructApp.csproj.GenerateResource.Cache
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\obj\Debug\StructApp.exe
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\obj\Debug\StructApp.pdb
+C:\Users\DTBSENYAYLA\Desktop\Enmos\StructApp\StructApp\obj\Debug\StructApp.Form1.resources

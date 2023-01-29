@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbCrmModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="dbCrmEntities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="Sp_FwUtil">
+      <Parameter Name="DomainName" Mode="In" Type="String" />
+      <Parameter Name="TranType" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CrmBolums" EntityType="dbCrmModel.CrmBolum" />
+    <EntitySet Name="CrmDepartmen" EntityType="dbCrmModel.CrmDepartman" />
+    <EntitySet Name="CrmFirmas" EntityType="dbCrmModel.CrmFirma" />
+    <EntitySet Name="CrmFirmaLokasyons" EntityType="dbCrmModel.CrmFirmaLokasyon" />
+    <EntitySet Name="CrmGorevs" EntityType="dbCrmModel.CrmGorev" />
+    <EntitySet Name="CrmPersonels" EntityType="dbCrmModel.CrmPersonel" />
+    <EntitySet Name="FrwMenus" EntityType="dbCrmModel.FrwMenu" />
+    <EntitySet Name="FrwYetkiGrups" EntityType="dbCrmModel.FrwYetkiGrup" />
+    <EntitySet Name="FrwYetkiGrupKullanicis" EntityType="dbCrmModel.FrwYetkiGrupKullanici" />
+    <EntitySet Name="FrwYetkiGrupMenus" EntityType="dbCrmModel.FrwYetkiGrupMenu" />
+    <AssociationSet Name="FK_CrmPersonel_CrmBolum" Association="dbCrmModel.FK_CrmPersonel_CrmBolum">
+      <End Role="CrmBolum" EntitySet="CrmBolums" />
+      <End Role="CrmPersonel" EntitySet="CrmPersonels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CrmPersonel_CrmDepartman" Association="dbCrmModel.FK_CrmPersonel_CrmDepartman">
+      <End Role="CrmDepartman" EntitySet="CrmDepartmen" />
+      <End Role="CrmPersonel" EntitySet="CrmPersonels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CrmPersonel_CrmFirma" Association="dbCrmModel.FK_CrmPersonel_CrmFirma">
+      <End Role="CrmFirma" EntitySet="CrmFirmas" />
+      <End Role="CrmPersonel" EntitySet="CrmPersonels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CrmPersonel_CrmFirmaLokasyon" Association="dbCrmModel.FK_CrmPersonel_CrmFirmaLokasyon">
+      <End Role="CrmFirmaLokasyon" EntitySet="CrmFirmaLokasyons" />
+      <End Role="CrmPersonel" EntitySet="CrmPersonels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CrmPersonel_CrmGorev" Association="dbCrmModel.FK_CrmPersonel_CrmGorev">
+      <End Role="CrmGorev" EntitySet="CrmGorevs" />
+      <End Role="CrmPersonel" EntitySet="CrmPersonels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_YetkiGrupMenu_Menu" Association="dbCrmModel.FK_YetkiGrupMenu_Menu">
+      <End Role="FrwMenu" EntitySet="FrwMenus" />
+      <End Role="FrwYetkiGrupMenu" EntitySet="FrwYetkiGrupMenus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_YetkiGrupKullanici_YetkiGrup" Association="dbCrmModel.FK_YetkiGrupKullanici_YetkiGrup">
+      <End Role="FrwYetkiGrup" EntitySet="FrwYetkiGrups" />
+      <End Role="FrwYetkiGrupKullanici" EntitySet="FrwYetkiGrupKullanicis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_YetkiGrupMenu_YetkiGrup" Association="dbCrmModel.FK_YetkiGrupMenu_YetkiGrup">
+      <End Role="FrwYetkiGrup" EntitySet="FrwYetkiGrups" />
+      <End Role="FrwYetkiGrupMenu" EntitySet="FrwYetkiGrupMenus" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CrmBolum">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="DepartmanId" />
+    <Property Type="String" Name="BolumEmailGrup" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="Boolean" Name="IsDeleted" />
+    <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" Precision="3" />
+    <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+    <NavigationProperty Name="CrmPersonels" Relationship="dbCrmModel.FK_CrmPersonel_CrmBolum" FromRole="CrmBolum" ToRole="CrmPersonel" />
+  </EntityType>
+  <EntityType Name="CrmDepartman">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Ad" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Aciklama" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="Boolean" Name="IsDeleted" />
+    <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" Precision="3" />
+    <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+    <NavigationProperty Name="CrmPersonels" Relationship="dbCrmModel.FK_CrmPersonel_CrmDepartman" FromRole="CrmDepartman" ToRole="CrmPersonel" />
+  </EntityType>
+  <EntityType Name="CrmFirma">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CariKod" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="Boolean" Name="IsDeleted" />
+    <Property Type="String" Name="CreateUser" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" Precision="3" />
+    <Property Type="String" Name="DeleteUser" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+    <NavigationProperty Name="CrmPersonels" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirma" FromRole="CrmFirma" ToRole="CrmPersonel" />
+  </EntityType>
+  <EntityType Name="CrmFirmaLokasyon">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Aciklama" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="FirmaId" />
+    <Property Type="Int32" Name="Il" />
+    <Property Type="Int32" Name="Ilce" />
+    <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="Boolean" Name="IsDeleted" />
+    <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" Precision="3" />
+    <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+    <NavigationProperty Name="CrmPersonels" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirmaLokasyon" FromRole="CrmFirmaLokasyon" ToRole="CrmPersonel" />
+  </EntityType>
+  <EntityType Name="CrmGorev">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Aciklama" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ExtraStr1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="Boolean" Name="IsDeleted" />
+    <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" Precision="3" />
+    <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+    <NavigationProperty Name="CrmPersonels" Relationship="dbCrmModel.FK_CrmPersonel_CrmGorev" FromRole="CrmGorev" ToRole="CrmPersonel" />
+  </EntityType>
+  <EntityType Name="CrmPersonel">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="DomainName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Ad" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Soyad" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DogumTarihi" Precision="0" />
+    <Property Type="String" Name="TcKimlikNo" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MedeniHali" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="Adres" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmailIs" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TelefonNo" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="GsmNo" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TelefonNoIs" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Cinsiyet" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="ProfilFoto" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="GirisTarihi" Precision="3" />
+    <Property Type="DateTime" Name="CikisTarihi" Precision="3" />
+    <Property Type="Guid" Name="BirinciYonetici" />
+    <Property Type="Guid" Name="IkinciYonetici" />
+    <Property Type="Guid" Name="DepartmanId" />
+    <Property Type="Guid" Name="BolumId" />
+    <Property Type="Guid" Name="GorevId" />
+    <Property Type="Guid" Name="FirmaId" />
+    <Property Type="Guid" Name="FirmaLokasyonId" />
+    <Property Type="String" Name="ExtraStr1" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="Boolean" Name="IsDeleted" />
+    <Property Type="String" Name="CreateUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" Precision="3" />
+    <Property Type="DateTime" Name="DeleteDate" Precision="3" />
+    <Property Type="String" Name="DeleteUser" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CrmBolum" Relationship="dbCrmModel.FK_CrmPersonel_CrmBolum" FromRole="CrmPersonel" ToRole="CrmBolum" />
+    <NavigationProperty Name="CrmDepartman" Relationship="dbCrmModel.FK_CrmPersonel_CrmDepartman" FromRole="CrmPersonel" ToRole="CrmDepartman" />
+    <NavigationProperty Name="CrmFirma" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirma" FromRole="CrmPersonel" ToRole="CrmFirma" />
+    <NavigationProperty Name="CrmFirmaLokasyon" Relationship="dbCrmModel.FK_CrmPersonel_CrmFirmaLokasyon" FromRole="CrmPersonel" ToRole="CrmFirmaLokasyon" />
+    <NavigationProperty Name="CrmGorev" Relationship="dbCrmModel.FK_CrmPersonel_CrmGorev" FromRole="CrmPersonel" ToRole="CrmGorev" />
+  </EntityType>
+  <EntityType Name="FrwMenu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Ad" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Aciklama" MaxLength="700" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Image" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="Int32" Name="UstId" />
+    <Property Type="Boolean" Name="IsMenu" />
+    <Property Type="String" Name="NameSpace" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Dll" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Sira" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="FrwYetkiGrupMenus" Relationship="dbCrmModel.FK_YetkiGrupMenu_Menu" FromRole="FrwMenu" ToRole="FrwYetkiGrupMenu" />
+  </EntityType>
+  <EntityType Name="FrwYetkiGrup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Ad" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Aciklama" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="FrwYetkiGrupKullanicis" Relationship="dbCrmModel.FK_YetkiGrupKullanici_YetkiGrup" FromRole="FrwYetkiGrup" ToRole="FrwYetkiGrupKullanici" />
+    <NavigationProperty Name="FrwYetkiGrupMenus" Relationship="dbCrmModel.FK_YetkiGrupMenu_YetkiGrup" FromRole="FrwYetkiGrup" ToRole="FrwYetkiGrupMenu" />
+  </EntityType>
+  <EntityType Name="FrwYetkiGrupKullanici">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="YetkiGrupId" />
+    <Property Type="String" Name="DomainName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="FrwYetkiGrup" Relationship="dbCrmModel.FK_YetkiGrupKullanici_YetkiGrup" FromRole="FrwYetkiGrupKullanici" ToRole="FrwYetkiGrup" />
+  </EntityType>
+  <EntityType Name="FrwYetkiGrupMenu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="YetkiGrupId" />
+    <Property Type="Int32" Name="MenuId" />
+    <Property Type="String" Name="Acilklama" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="FrwMenu" Relationship="dbCrmModel.FK_YetkiGrupMenu_Menu" FromRole="FrwYetkiGrupMenu" ToRole="FrwMenu" />
+    <NavigationProperty Name="FrwYetkiGrup" Relationship="dbCrmModel.FK_YetkiGrupMenu_YetkiGrup" FromRole="FrwYetkiGrupMenu" ToRole="FrwYetkiGrup" />
+  </EntityType>
+  <Association Name="FK_CrmPersonel_CrmBolum">
+    <End Type="dbCrmModel.CrmBolum" Role="CrmBolum" Multiplicity="0..1" />
+    <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CrmBolum">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CrmPersonel">
+        <PropertyRef Name="BolumId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CrmPersonel_CrmDepartman">
+    <End Type="dbCrmModel.CrmDepartman" Role="CrmDepartman" Multiplicity="0..1" />
+    <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CrmDepartman">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CrmPersonel">
+        <PropertyRef Name="DepartmanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CrmPersonel_CrmFirma">
+    <End Type="dbCrmModel.CrmFirma" Role="CrmFirma" Multiplicity="0..1" />
+    <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CrmFirma">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CrmPersonel">
+        <PropertyRef Name="FirmaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CrmPersonel_CrmFirmaLokasyon">
+    <End Type="dbCrmModel.CrmFirmaLokasyon" Role="CrmFirmaLokasyon" Multiplicity="0..1" />
+    <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CrmFirmaLokasyon">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CrmPersonel">
+        <PropertyRef Name="FirmaLokasyonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CrmPersonel_CrmGorev">
+    <End Type="dbCrmModel.CrmGorev" Role="CrmGorev" Multiplicity="0..1" />
+    <End Type="dbCrmModel.CrmPersonel" Role="CrmPersonel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CrmGorev">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CrmPersonel">
+        <PropertyRef Name="GorevId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_YetkiGrupMenu_Menu">
+    <End Type="dbCrmModel.FrwMenu" Role="FrwMenu" Multiplicity="0..1" />
+    <End Type="dbCrmModel.FrwYetkiGrupMenu" Role="FrwYetkiGrupMenu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FrwMenu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FrwYetkiGrupMenu">
+        <PropertyRef Name="MenuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_YetkiGrupKullanici_YetkiGrup">
+    <End Type="dbCrmModel.FrwYetkiGrup" Role="FrwYetkiGrup" Multiplicity="0..1" />
+    <End Type="dbCrmModel.FrwYetkiGrupKullanici" Role="FrwYetkiGrupKullanici" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FrwYetkiGrup">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FrwYetkiGrupKullanici">
+        <PropertyRef Name="YetkiGrupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_YetkiGrupMenu_YetkiGrup">
+    <End Type="dbCrmModel.FrwYetkiGrup" Role="FrwYetkiGrup" Multiplicity="0..1" />
+    <End Type="dbCrmModel.FrwYetkiGrupMenu" Role="FrwYetkiGrupMenu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FrwYetkiGrup">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FrwYetkiGrupMenu">
+        <PropertyRef Name="YetkiGrupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

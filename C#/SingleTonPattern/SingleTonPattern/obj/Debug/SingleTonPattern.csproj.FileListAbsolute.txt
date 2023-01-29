@@ -1,0 +1,6 @@
+d:\Users\dtbsenyayla\Desktop\ccc\SingleTonPattern\SingleTonPattern\bin\Debug\SingleTonPattern.exe.config
+d:\Users\dtbsenyayla\Desktop\ccc\SingleTonPattern\SingleTonPattern\bin\Debug\SingleTonPattern.exe
+d:\Users\dtbsenyayla\Desktop\ccc\SingleTonPattern\SingleTonPattern\bin\Debug\SingleTonPattern.pdb
+d:\Users\dtbsenyayla\Desktop\ccc\SingleTonPattern\SingleTonPattern\obj\Debug\SingleTonPattern.csprojResolveAssemblyReference.cache
+d:\Users\dtbsenyayla\Desktop\ccc\SingleTonPattern\SingleTonPattern\obj\Debug\SingleTonPattern.exe
+d:\Users\dtbsenyayla\Desktop\ccc\SingleTonPattern\SingleTonPattern\obj\Debug\SingleTonPattern.pdb

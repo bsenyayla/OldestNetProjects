@@ -1,0 +1,11 @@
+Virtual Methods – Sanal Metotlar
+
+göstermesine çok biçimlilik-çok þekillilik (polimorphizm) denilmektedir.
+
+Virtual methods (sanal metotlar), base class (temel sýnýf) içinde bildirilmiþ ve derived class (türemiþ sýnýf) içinde de tekrar bildirilebilen metotlardýr. Böylelikle sanal metotlar kullanýlarak nesne yönelimli programlama da çok sýk baþvurulan çok biçimliliði yani poliformizm (polimorphizm) uygulanmýþ olur. Yani temel sýnýfta bir sanal metot bildirildiðinde bu temel sýnýftan türeyen sýnýflardaki metotlar override edilerek, temel sýnýftaki sanal metotu devre dýþý býrakabilirler.
+
+Sanal metotlarý bildirmek için virtual anahtar sözcüðü kullanýlýr. Bu anahtar sözcükle, sanal metotumuz bildirilmiþ olur. Türeyen sýnýfta ise, temel sýnýftaki sanal metotlarý devre dýþý býrakmak için override anahtar sözcüðü kullanýlýr. Yani base class?da virtual olarak tanýmladýðým bir metotu derived class içindeoverride edebilirim. Eðer override edersem derived class içindeki metot çalýþýr, eðer etmez isem direkt olarak base class içindeki virtual metot çalýþýr.
+
+Virtual metotlar private olarak tanýmlanamazlar, public olmak zorundadýrlar. Zaten private olmasýnýn bir anlamý yok çünkü aksi halde derived class içinde bunlarý override edemeyiz. Public olmasýnýn yaný sýra protected, internal þeklinde de bildirilebilirler.
+
+Þimdi bu anlatýlanlarý bir örnekle destekleyelim:

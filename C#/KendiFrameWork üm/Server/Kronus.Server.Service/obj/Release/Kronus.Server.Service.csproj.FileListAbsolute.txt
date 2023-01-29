@@ -1,0 +1,9 @@
+D:\Kronus\Server\Kronus.Server.Service\bin\Kronus.Server.Service.dll
+D:\Kronus\Server\Kronus.Server.Service\bin\Kronus.Server.Service.pdb
+D:\Kronus\Server\Kronus.Server.Service\bin\Kronus.Server.BusinessFlow.dll
+D:\Kronus\Server\Kronus.Server.Service\bin\Kronus.Server.Entity.dll
+D:\Kronus\Server\Kronus.Server.Service\bin\Kronus.Server.BusinessFlow.pdb
+D:\Kronus\Server\Kronus.Server.Service\bin\Kronus.Server.Entity.pdb
+D:\Kronus\Server\Kronus.Server.Service\obj\Release\Kronus.Server.Service.csprojResolveAssemblyReference.cache
+D:\Kronus\Server\Kronus.Server.Service\obj\Release\Kronus.Server.Service.dll
+D:\Kronus\Server\Kronus.Server.Service\obj\Release\Kronus.Server.Service.pdb

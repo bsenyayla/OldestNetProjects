@@ -1,0 +1,16 @@
+C:\Users\Comp1\Desktop\C#\ThisSample\ThisSample\bin\Debug\ThisSample.exe.config
+C:\Users\Comp1\Desktop\C#\ThisSample\ThisSample\bin\Debug\ThisSample.exe
+C:\Users\Comp1\Desktop\C#\ThisSample\ThisSample\bin\Debug\ThisSample.pdb
+C:\Users\Comp1\Desktop\C#\ThisSample\ThisSample\obj\Debug\ThisSample.csprojResolveAssemblyReference.cache
+C:\Users\Comp1\Desktop\C#\ThisSample\ThisSample\obj\Debug\ThisSample.exe
+C:\Users\Comp1\Desktop\C#\ThisSample\ThisSample\obj\Debug\ThisSample.pdb
+F:\TempFiles\YEDEK\C#\ThisSample\ThisSample\bin\Debug\ThisSample.exe.config
+F:\TempFiles\YEDEK\C#\ThisSample\ThisSample\obj\Debug\ThisSample.exe
+F:\TempFiles\YEDEK\C#\ThisSample\ThisSample\obj\Debug\ThisSample.pdb
+F:\Tmp\C#\ThisSample\ThisSample\bin\Debug\ThisSample.exe.config
+F:\Tmp\C#\ThisSample\ThisSample\bin\Debug\ThisSample.exe
+F:\Tmp\C#\ThisSample\ThisSample\bin\Debug\ThisSample.pdb
+F:\Tmp\C#\ThisSample\ThisSample\obj\Debug\ThisSample.csprojAssemblyReference.cache
+F:\Tmp\C#\ThisSample\ThisSample\obj\Debug\ThisSample.csproj.CoreCompileInputs.cache
+F:\Tmp\C#\ThisSample\ThisSample\obj\Debug\ThisSample.exe
+F:\Tmp\C#\ThisSample\ThisSample\obj\Debug\ThisSample.pdb

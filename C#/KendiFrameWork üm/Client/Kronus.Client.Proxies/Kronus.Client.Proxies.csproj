@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9CABB14-1CEB-4941-95A9-5E8968C00F7F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kronus.Client.Proxies</RootNamespace>
+    <AssemblyName>Kronus.Client.Proxies</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveSession.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\CoreService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CrmService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SrvService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Service References\CoreService\CoreService.wsdl" />
+    <None Include="Service References\CoreService\CoreService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CoreService\CoreService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CoreService\CoreService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\CrmService.wsdl" />
+    <None Include="Service References\CrmService\CrmService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\CrmService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\CrmService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\CrmService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\CrmService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\CrmService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\CrmService6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CrmService\Kronus.Client.Proxies.CrmService.EhliyetS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.AracS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.AracShort.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.ComboItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.GuzergahMainS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.GuzergahMainShort.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.GuzergahS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.GuzergahShort.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.ProjeS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.ProjeShort.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.TedarikciS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\Kronus.Client.Proxies.SrvService.TedarikciShort.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SrvService\SrvService.wsdl" />
+    <None Include="Service References\SrvService\SrvService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SrvService\SrvService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SrvService\SrvService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SrvService\SrvService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SrvService\SrvService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SrvService\SrvService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SrvService\SrvService6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\CoreService\" />
+    <WCFMetadataStorage Include="Service References\CrmService\" />
+    <WCFMetadataStorage Include="Service References\SrvService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CoreService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CoreService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CoreService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CrmService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CrmService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CrmService\Kronus.Client.Proxies.CrmService.ComboItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CrmService\Kronus.Client.Proxies.CrmService.Personel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CrmService\Kronus.Client.Proxies.CrmService.PersonelShort.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CrmService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SrvService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SrvService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SrvService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SrvService\SrvService.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

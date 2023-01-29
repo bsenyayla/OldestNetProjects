@@ -1,0 +1,6 @@
+d:\Users\dtbsenyayla\Desktop\ccc\Access Modifiers\Access Modifiers\bin\Debug\Access Modifiers.exe.config
+d:\Users\dtbsenyayla\Desktop\ccc\Access Modifiers\Access Modifiers\obj\Debug\Access Modifiers.csprojResolveAssemblyReference.cache
+d:\Users\dtbsenyayla\Desktop\ccc\Access Modifiers\Access Modifiers\bin\Debug\Access Modifiers.exe
+d:\Users\dtbsenyayla\Desktop\ccc\Access Modifiers\Access Modifiers\bin\Debug\Access Modifiers.pdb
+d:\Users\dtbsenyayla\Desktop\ccc\Access Modifiers\Access Modifiers\obj\Debug\Access Modifiers.exe
+d:\Users\dtbsenyayla\Desktop\ccc\Access Modifiers\Access Modifiers\obj\Debug\Access Modifiers.pdb

@@ -1,0 +1,5 @@
+H:\Education\C#\EnterpriseArchitect\Arch.Ioc\bin\Debug\Arch.Ioc.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Ioc\bin\Debug\Arch.Ioc.pdb
+H:\Education\C#\EnterpriseArchitect\Arch.Ioc\obj\Debug\Arch.Ioc.csprojResolveAssemblyReference.cache
+H:\Education\C#\EnterpriseArchitect\Arch.Ioc\obj\Debug\Arch.Ioc.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Ioc\obj\Debug\Arch.Ioc.pdb

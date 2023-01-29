@@ -1,0 +1,10 @@
+D:\Kronus\Server\Kronus.Server.Entity\bin\Release\Kronus.Server.Entity.dll.config
+D:\Kronus\Server\Kronus.Server.Entity\bin\Release\Kronus.Server.Entity.dll
+D:\Kronus\Server\Kronus.Server.Entity\bin\Release\Kronus.Server.Entity.pdb
+D:\Kronus\Server\Kronus.Server.Entity\bin\Release\EntityFramework.dll
+D:\Kronus\Server\Kronus.Server.Entity\bin\Release\EntityFramework.SqlServer.dll
+D:\Kronus\Server\Kronus.Server.Entity\bin\Release\EntityFramework.xml
+D:\Kronus\Server\Kronus.Server.Entity\bin\Release\EntityFramework.SqlServer.xml
+D:\Kronus\Server\Kronus.Server.Entity\obj\Release\Kronus.Server.Entity.csprojResolveAssemblyReference.cache
+D:\Kronus\Server\Kronus.Server.Entity\obj\Release\Kronus.Server.Entity.dll
+D:\Kronus\Server\Kronus.Server.Entity\obj\Release\Kronus.Server.Entity.pdb

@@ -1,0 +1,5 @@
+H:\Education\C#\EnterpriseArchitect\Arch.Dto\bin\Debug\Arch.Dto.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Dto\bin\Debug\Arch.Dto.pdb
+H:\Education\C#\EnterpriseArchitect\Arch.Dto\obj\Debug\Arch.Dto.csprojResolveAssemblyReference.cache
+H:\Education\C#\EnterpriseArchitect\Arch.Dto\obj\Debug\Arch.Dto.dll
+H:\Education\C#\EnterpriseArchitect\Arch.Dto\obj\Debug\Arch.Dto.pdb

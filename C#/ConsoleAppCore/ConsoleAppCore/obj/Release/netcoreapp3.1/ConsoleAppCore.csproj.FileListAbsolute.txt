@@ -1,0 +1,11 @@
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\bin\Release\netcoreapp3.1\ConsoleAppCore.exe
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\bin\Release\netcoreapp3.1\ConsoleAppCore.deps.json
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\bin\Release\netcoreapp3.1\ConsoleAppCore.runtimeconfig.json
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\bin\Release\netcoreapp3.1\ConsoleAppCore.runtimeconfig.dev.json
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\bin\Release\netcoreapp3.1\ConsoleAppCore.dll
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\bin\Release\netcoreapp3.1\ConsoleAppCore.pdb
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\obj\Release\netcoreapp3.1\ConsoleAppCore.csprojAssemblyReference.cache
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\obj\Release\netcoreapp3.1\ConsoleAppCore.AssemblyInfoInputs.cache
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\obj\Release\netcoreapp3.1\ConsoleAppCore.AssemblyInfo.cs
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\obj\Release\netcoreapp3.1\ConsoleAppCore.dll
+C:\Users\bahadir.senyayla\source\repos\ConsoleAppCore\ConsoleAppCore\obj\Release\netcoreapp3.1\ConsoleAppCore.pdb

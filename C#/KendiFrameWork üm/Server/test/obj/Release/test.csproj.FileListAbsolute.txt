@@ -1,0 +1,13 @@
+D:\Kronus\Server\test\bin\Release\test.exe.config
+D:\Kronus\Server\test\bin\Release\test.exe
+D:\Kronus\Server\test\bin\Release\test.pdb
+D:\Kronus\Server\test\bin\Release\Kronus.Server.BusinessFlow.dll
+D:\Kronus\Server\test\bin\Release\Kronus.Server.Entity.dll
+D:\Kronus\Server\test\bin\Release\Kronus.Server.BusinessFlow.pdb
+D:\Kronus\Server\test\bin\Release\Kronus.Server.Entity.pdb
+D:\Kronus\Server\test\obj\Release\test.csprojResolveAssemblyReference.cache
+D:\Kronus\Server\test\obj\Release\test.Form1.resources
+D:\Kronus\Server\test\obj\Release\test.Properties.Resources.resources
+D:\Kronus\Server\test\obj\Release\test.csproj.GenerateResource.Cache
+D:\Kronus\Server\test\obj\Release\test.exe
+D:\Kronus\Server\test\obj\Release\test.pdb
