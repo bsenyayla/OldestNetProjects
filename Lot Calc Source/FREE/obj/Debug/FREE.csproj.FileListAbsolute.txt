@@ -1,0 +1,19 @@
+G:\UsbDisk\Kütüphane\Finansal\Borsa\TECH\FREE\FREE\obj\Debug\FREE.exe
+G:\UsbDisk\Kütüphane\Finansal\Borsa\TECH\FREE\FREE\obj\Debug\FREE.pdb
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.csprojAssemblyReference.cache
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.AllWebPageFrm.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.DetayBilancoGelirTablo.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.Dokuman.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.Form1.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.HaberAnalizi.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.JavaMatriksST.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.LotCalc.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.MainMenu.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.ParaGirisCikisi.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.Properties.Resources.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.TakasBilgileri.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.TakasFrm.resources
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.csproj.GenerateResource.cache
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.csproj.CoreCompileInputs.cache
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.exe
+F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.pdb

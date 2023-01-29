@@ -1,0 +1,81 @@
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\bin\Debug\FREE.exe
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\bin\Debug\FREE.pdb
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\FREE.Form1.resources
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\FREE.Properties.Resources.resources
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\FREE.csproj.GenerateResource.Cache
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\FREE.exe
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\FREE.pdb
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\FREE.DipZirveAnaliziFrm.resources
+C:\Users\bahadirsenyayla\Desktop\BAHADIR\FREE\FREE\FREE\obj\Debug\FREE.AllWebPageFrm.resources
+F:\TECH\FREE\FREE\bin\Debug\FREE.exe
+F:\TECH\FREE\FREE\bin\Debug\FREE.pdb
+F:\TECH\FREE\FREE\obj\Debug\ResolveAssemblyReference.cache
+F:\TECH\FREE\FREE\obj\Debug\FREE.AllWebPageFrm.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.Dokuman.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.Form1.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.HaberAnalizi.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.JavaMatriksST.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.LotCalc.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.MainMenu.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.ParaGirisCikisi.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.Properties.Resources.resources
+F:\TECH\FREE\FREE\obj\Debug\FREE.csproj.GenerateResource.Cache
+F:\TECH\FREE\FREE\obj\Debug\FREE.exe
+F:\TECH\FREE\FREE\obj\Debug\FREE.pdb
+F:\TECH\FREE\FREE\obj\Debug\FREE.TakasBilgileri.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.exe
+G:\TECH\FREE\FREE\obj\Debug\FREE.pdb
+G:\TECH\FREE\FREE\bin\Debug\FREE.exe
+G:\TECH\FREE\FREE\bin\Debug\FREE.pdb
+G:\TECH\FREE\FREE\obj\Debug\ResolveAssemblyReference.cache
+G:\TECH\FREE\FREE\obj\Debug\FREE.AllWebPageFrm.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.DetayBilancoGelirTablo.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.Dokuman.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.Form1.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.HaberAnalizi.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.JavaMatriksST.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.LotCalc.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.MainMenu.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.ParaGirisCikisi.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.Properties.Resources.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.TakasBilgileri.resources
+G:\TECH\FREE\FREE\obj\Debug\FREE.csproj.GenerateResource.Cache
+G:\TECH\FREE\FREE\obj\Debug\FREE.exe.licenses
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.exe
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.pdb
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\bin\Debug\FREE.exe
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\bin\Debug\FREE.pdb
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\ResolveAssemblyReference.cache
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.AllWebPageFrm.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.DetayBilancoGelirTablo.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.Dokuman.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.Form1.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.HaberAnalizi.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.JavaMatriksST.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.LotCalc.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.MainMenu.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.ParaGirisCikisi.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.Properties.Resources.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.TakasBilgileri.resources
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.csproj.GenerateResource.Cache
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.exe.licenses
+C:\DISK\D\DEV\SET\EXT\TECH\FREE\FREE\obj\Debug\FREE.TakasFrm.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.exe
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.pdb
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\bin\Debug\FREE.exe
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\bin\Debug\FREE.pdb
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.AllWebPageFrm.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.DetayBilancoGelirTablo.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.Dokuman.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.Form1.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.HaberAnalizi.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.JavaMatriksST.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.LotCalc.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.MainMenu.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.ParaGirisCikisi.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.Properties.Resources.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.TakasBilgileri.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.TakasFrm.resources
+C:\Documents and Settings\BAHADIR\Desktop\Yeni Klasör\EXT\TECH\FREE\FREE\obj\Debug\FREE.csproj.GenerateResource.Cache
