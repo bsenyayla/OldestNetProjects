@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj": {}
+  },
+  "projects": {
+    "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
+        "projectName": "FreeDev02",
+        "projectPath": "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
+        "packagesPath": "C:\\Users\\BAHADIR\\.nuget\\packages\\",
+        "outputPath": "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BAHADIR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hyneskhater/_packaging/CoreComponents/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

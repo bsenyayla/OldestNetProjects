@@ -1,0 +1,15 @@
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\bin\Debug\net6.0\FreeDev02.exe
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\bin\Debug\net6.0\FreeDev02.deps.json
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\bin\Debug\net6.0\FreeDev02.runtimeconfig.json
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\bin\Debug\net6.0\FreeDev02.dll
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\bin\Debug\net6.0\FreeDev02.pdb
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.csproj.AssemblyReference.cache
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.GeneratedMSBuildEditorConfig.editorconfig
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.AssemblyInfoInputs.cache
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.AssemblyInfo.cs
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.csproj.CoreCompileInputs.cache
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.dll
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\refint\FreeDev02.dll
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.pdb
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\FreeDev02.genruntimeconfig.cache
+F:\Depo\gitOldProj\OldestNetProjects\CSharp_Denemeler\FreeDev02\obj\Debug\net6.0\ref\FreeDev02.dll
