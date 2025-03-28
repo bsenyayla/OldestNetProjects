@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "r+gIxTQNef5fozE/BNmfP9nEPaSg8wf0pvuvt9XdB0SbXdR7TK2FbcAgwLPtEc3c1X1Vxmfxqu374nnbMvXeNQ==",
+  "dgSpecHash": "x0Jv2mO6NBM=",
   "success": true,
-  "projectFilePath": "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BSENYAYLA_10\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\BSENYAYLA_10\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\BSENYAYLA_10\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\BSENYAYLA_10\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

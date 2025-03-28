@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj": {}
+    "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj": {}
   },
   "projects": {
-    "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj": {
+    "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
+        "projectUniqueName": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
         "projectName": "FreeDev02",
-        "projectPath": "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
-        "packagesPath": "C:\\Users\\BAHADIR\\.nuget\\packages\\",
-        "outputPath": "F:\\Depo\\gitOldProj\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\obj\\",
+        "projectPath": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
+        "packagesPath": "C:\\Users\\BSENYAYLA_10\\.nuget\\packages\\",
+        "outputPath": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\BAHADIR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BSENYAYLA_10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/hyneskhater/_packaging/CoreComponents/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -35,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -51,12 +61,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

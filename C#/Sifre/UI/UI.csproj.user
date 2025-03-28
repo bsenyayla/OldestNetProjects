@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>C:\Users\BAHADIR\Desktop\New folder\|publish\</PublishUrlHistory>
-    <InstallUrlHistory />
+    <PublishUrlHistory>Z:\depp\|C:\Users\BAHADIR\Desktop\New folder\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>https://hseq.navimaxx.com/</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />

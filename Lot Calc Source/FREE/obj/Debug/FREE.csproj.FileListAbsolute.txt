@@ -17,3 +17,20 @@ F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.csproj.Generate
 F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.csproj.CoreCompileInputs.cache
 F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.exe
 F:\Tmp\Yarım Kalan Projeler\Lot Calc Source\FREE\obj\Debug\FREE.pdb
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.csproj.AssemblyReference.cache
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.AllWebPageFrm.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.DetayBilancoGelirTablo.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.Dokuman.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.Form1.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.HaberAnalizi.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.JavaMatriksST.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.LotCalc.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.MainMenu.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.ParaGirisCikisi.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.Properties.Resources.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.TakasBilgileri.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.TakasFrm.resources
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.csproj.GenerateResource.cache
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.csproj.CoreCompileInputs.cache
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.exe
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.pdb

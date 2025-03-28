@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\soyutsinif\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:soyutsinif\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\virtualsample\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:virtualsample\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\sortedlistsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:sortedlistsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\icojam-matreshka-red-matreshka-inside-icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:icojam-matreshka-red-matreshka-inside-icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\virtualsample\\horse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:virtualsample\\horse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\virtualsample\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:virtualsample\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\soyutsinif\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:soyutsinif\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\soyutsinif\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:soyutsinif\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Icojam-Matreshka-Red-matreshka-inside-icon.ico",
+              "RelativeDocumentMoniker": "Icojam-Matreshka-Red-matreshka-inside-icon.ico",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
+              "RelativeToolTip": "Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-03-22T00:18:04.853Z",
+              "EditorCaption": " - Icon [256x256, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Car.cs",
+              "RelativeDocumentMoniker": "Car.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Car.cs",
+              "RelativeToolTip": "Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:13:58.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Horse.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Horse.cs",
+              "RelativeDocumentMoniker": "VirtualSample\\Horse.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Horse.cs",
+              "RelativeToolTip": "VirtualSample\\Horse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Dog.cs",
+              "RelativeDocumentMoniker": "VirtualSample\\Dog.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Dog.cs",
+              "RelativeToolTip": "VirtualSample\\Dog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Animal.cs",
+              "RelativeDocumentMoniker": "VirtualSample\\Animal.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Animal.cs",
+              "RelativeToolTip": "VirtualSample\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortedListSample.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SortedListSample.cs",
+              "RelativeDocumentMoniker": "SortedListSample.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SortedListSample.cs",
+              "RelativeToolTip": "SortedListSample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADgvxUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Utils.cs",
+              "RelativeToolTip": "Utils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Dog.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\Dog.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Dog.cs",
+              "RelativeToolTip": "SoyutSinif\\Dog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Cat.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\Cat.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Cat.cs",
+              "RelativeToolTip": "SoyutSinif\\Cat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Animal.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\Animal.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Animal.cs",
+              "RelativeToolTip": "SoyutSinif\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:12:58.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

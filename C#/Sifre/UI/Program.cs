@@ -16,7 +16,7 @@ namespace UI
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SifreFrm());
+            Application.Run(new DirectXForm1());
         }
 
 
