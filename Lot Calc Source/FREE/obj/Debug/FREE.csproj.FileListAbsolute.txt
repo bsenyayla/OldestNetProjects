@@ -34,3 +34,5 @@ Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.csproj.Genera
 Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.csproj.CoreCompileInputs.cache
 Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.exe
 Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.pdb
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.csproj.SuggestedBindingRedirects.cache
+Z:\gitSource\OldestNetProjects\Lot Calc Source\FREE\obj\Debug\FREE.exe.config

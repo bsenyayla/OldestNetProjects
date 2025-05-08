@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\applearn\\algorithmexamples\\palindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\algorithmexamples\\palindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\applearn\\algorithmexamples\\findduplicatenumbersinarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\algorithmexamples\\findduplicatenumbersinarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\corewebapi_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|solutionrelative:corewebapi_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\corewebapi_01\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|solutionrelative:corewebapi_01\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\corewebapi_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|solutionrelative:corewebapi_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\applearn\\linqfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\linqfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\applearn\\linqfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\linqfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\applearn\\linq\\firstsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\linq\\firstsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\applearn\\mdiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\mdiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\applearn\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Palindrome.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\AlgorithmExamples\\Palindrome.cs",
+              "RelativeDocumentMoniker": "AppLearn\\AlgorithmExamples\\Palindrome.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\AlgorithmExamples\\Palindrome.cs",
+              "RelativeToolTip": "AppLearn\\AlgorithmExamples\\Palindrome.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:21:44.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindDuplicateNumbersInArray.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\AlgorithmExamples\\FindDuplicateNumbersInArray.cs",
+              "RelativeDocumentMoniker": "AppLearn\\AlgorithmExamples\\FindDuplicateNumbersInArray.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\AlgorithmExamples\\FindDuplicateNumbersInArray.cs",
+              "RelativeToolTip": "AppLearn\\AlgorithmExamples\\FindDuplicateNumbersInArray.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:21:10.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CoreWebApi_01\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CoreWebApi_01\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T02:31:36.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\appsettings.json",
+              "RelativeDocumentMoniker": "CoreWebApi_01\\appsettings.json",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\appsettings.json",
+              "RelativeToolTip": "CoreWebApi_01\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-20T02:31:34.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Program.cs",
+              "RelativeDocumentMoniker": "CoreWebApi_01\\Program.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Program.cs",
+              "RelativeToolTip": "CoreWebApi_01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T02:31:11.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\MainForm.cs",
+              "RelativeDocumentMoniker": "AppLearn\\MainForm.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\MainForm.cs [Design]",
+              "RelativeToolTip": "AppLearn\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:20:25.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MDIForm.cs [Design]",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\MDIForm.cs",
+              "RelativeDocumentMoniker": "AppLearn\\MDIForm.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\MDIForm.cs [Design]",
+              "RelativeToolTip": "AppLearn\\MDIForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:20:06.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FirstSample.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LINQ\\FirstSample.cs",
+              "RelativeDocumentMoniker": "AppLearn\\LINQ\\FirstSample.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LINQ\\FirstSample.cs",
+              "RelativeToolTip": "AppLearn\\LINQ\\FirstSample.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAowKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:16:37.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LinqFrm.cs",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LinqFrm.cs",
+              "RelativeDocumentMoniker": "AppLearn\\LinqFrm.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LinqFrm.cs",
+              "RelativeToolTip": "AppLearn\\LinqFrm.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:13:27.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LinqFrm.cs [Design]",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LinqFrm.cs",
+              "RelativeDocumentMoniker": "AppLearn\\LinqFrm.cs",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LinqFrm.cs [Design]*",
+              "RelativeToolTip": "AppLearn\\LinqFrm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:13:01.469Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\AppLearn.exe
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\runtimes\win-x86\native\WebView2Loader.dll
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\runtimes\win-x64\native\WebView2Loader.dll
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\runtimes\win-arm64\native\WebView2Loader.dll
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\AppLearn.dll
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\AppLearn.deps.json
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\AppLearn.runtimeconfig.json
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\AppLearn.pdb
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\Microsoft.Web.WebView2.Core.dll
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\Microsoft.Web.WebView2.WinForms.dll
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\Microsoft.Web.WebView2.Wpf.dll
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\Microsoft.Web.WebView2.Core.xml
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\Microsoft.Web.WebView2.WinForms.xml
+Z:\gitSource\OldestNetProjects\Arge2025\AppLearn\AppLearn\bin\Release\net8.0-windows\app.publish\Microsoft.Web.WebView2.Wpf.xml

@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\freedev02.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:freedev02.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\sortedlistsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:sortedlistsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\soyutsinif\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:soyutsinif\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:virtualsample\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\sortedlistsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:sortedlistsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\icojam-matreshka-red-matreshka-inside-icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:icojam-matreshka-red-matreshka-inside-icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB88D15-FC95-440E-B43C-AB3EF5B7BD20}|FreeDev02.csproj|z:\\gitsource\\oldestnetprojects\\csharp_denemeler\\freedev02\\virtualsample\\horse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,23 +58,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
-              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Icojam-Matreshka-Red-matreshka-inside-icon.ico",
-              "RelativeDocumentMoniker": "Icojam-Matreshka-Red-matreshka-inside-icon.ico",
-              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
-              "RelativeToolTip": "Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
-              "WhenOpened": "2025-03-22T00:18:04.853Z",
-              "EditorCaption": " - Icon [256x256, 32 bit, PNG]"
+              "DocumentIndex": 0,
+              "Title": "FreeDev02",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
+              "RelativeDocumentMoniker": "FreeDev02.csproj",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\FreeDev02.csproj",
+              "RelativeToolTip": "FreeDev02.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-11T05:19:05.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Car.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Car.cs",
               "RelativeDocumentMoniker": "Car.cs",
@@ -78,12 +82,11 @@
               "RelativeToolTip": "Car.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:13:58.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T00:13:58.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Horse.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Horse.cs",
               "RelativeDocumentMoniker": "VirtualSample\\Horse.cs",
@@ -95,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Dog.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Dog.cs",
               "RelativeDocumentMoniker": "VirtualSample\\Dog.cs",
@@ -107,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Animal.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\VirtualSample\\Animal.cs",
               "RelativeDocumentMoniker": "VirtualSample\\Animal.cs",
@@ -115,37 +118,37 @@
               "RelativeToolTip": "VirtualSample\\Animal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:12:58.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T00:12:58.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SortedListSample.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SortedListSample.cs",
               "RelativeDocumentMoniker": "SortedListSample.cs",
               "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SortedListSample.cs",
               "RelativeToolTip": "SortedListSample.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T00:12:58.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADgvxUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:12:58.765Z"
+              "WhenOpened": "2025-03-22T00:12:58.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Utils.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Utils.cs",
               "RelativeDocumentMoniker": "Utils.cs",
@@ -158,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Dog.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Dog.cs",
               "RelativeDocumentMoniker": "SoyutSinif\\Dog.cs",
@@ -170,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Cat.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Cat.cs",
               "RelativeDocumentMoniker": "SoyutSinif\\Cat.cs",
@@ -182,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Animal.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\SoyutSinif\\Animal.cs",
               "RelativeDocumentMoniker": "SoyutSinif\\Animal.cs",
@@ -190,8 +193,19 @@
               "RelativeToolTip": "SoyutSinif\\Animal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:12:58.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T00:12:58.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
+              "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Icojam-Matreshka-Red-matreshka-inside-icon.ico",
+              "RelativeDocumentMoniker": "Icojam-Matreshka-Red-matreshka-inside-icon.ico",
+              "ToolTip": "Z:\\gitSource\\OldestNetProjects\\CSharp_Denemeler\\FreeDev02\\Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
+              "RelativeToolTip": "Icojam-Matreshka-Red-matreshka-inside-icon.ico - Icon [256x256, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-03-22T00:18:04.853Z",
+              "EditorCaption": " - Icon [256x256, 32 bit, PNG]"
             }
           ]
         }
