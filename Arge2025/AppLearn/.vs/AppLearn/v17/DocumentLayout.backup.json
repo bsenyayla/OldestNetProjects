@@ -11,18 +11,6 @@
       "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\algorithmexamples\\findduplicatenumbersinarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\corewebapi_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|solutionrelative:corewebapi_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\corewebapi_01\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|solutionrelative:corewebapi_01\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\corewebapi_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B1744BE8-C2E1-4DD5-9C27-05BDCFEA31A1}|CoreWebApi_01\\CoreWebApi_01.csproj|solutionrelative:corewebapi_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|z:\\gitsource\\oldestnetprojects\\arge2025\\applearn\\applearn\\linqfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\linqfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +29,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\applearn\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F3162FD-9A0B-4A84-A283-10AB3778D3A6}|AppLearn\\AppLearn.csproj|solutionrelative:applearn\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreWebApi_01\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreWebApi_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreWebApi_01\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,12 +75,11 @@
               "RelativeToolTip": "AppLearn\\AlgorithmExamples\\FindDuplicateNumbersInArray.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAUwDgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:21:10.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T21:21:10.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "CoreWebApi_01\\Controllers\\WeatherForecastController.cs",
@@ -88,12 +87,11 @@
               "RelativeToolTip": "CoreWebApi_01\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T02:31:36.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T02:31:36.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\appsettings.json",
               "RelativeDocumentMoniker": "CoreWebApi_01\\appsettings.json",
@@ -101,12 +99,11 @@
               "RelativeToolTip": "CoreWebApi_01\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T02:31:34.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T02:31:34.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\CoreWebApi_01\\Program.cs",
               "RelativeDocumentMoniker": "CoreWebApi_01\\Program.cs",
@@ -114,12 +111,11 @@
               "RelativeToolTip": "CoreWebApi_01\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T02:31:11.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T02:31:11.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\MainForm.cs",
               "RelativeDocumentMoniker": "AppLearn\\MainForm.cs",
@@ -130,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "MDIForm.cs [Design]",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\MDIForm.cs",
               "RelativeDocumentMoniker": "AppLearn\\MDIForm.cs",
@@ -141,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "FirstSample.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LINQ\\FirstSample.cs",
               "RelativeDocumentMoniker": "AppLearn\\LINQ\\FirstSample.cs",
@@ -153,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "LinqFrm.cs",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LinqFrm.cs",
               "RelativeDocumentMoniker": "AppLearn\\LinqFrm.cs",
@@ -166,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "LinqFrm.cs [Design]",
               "DocumentMoniker": "Z:\\gitSource\\OldestNetProjects\\Arge2025\\AppLearn\\AppLearn\\LinqFrm.cs",
               "RelativeDocumentMoniker": "AppLearn\\LinqFrm.cs",
