@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF_App00;
+namespace WpfApp2;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml
@@ -20,9 +20,4 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
-
-    //private void button_Click(object sender, RoutedEventArgs e)
-    //{
-    //    MessageBox.Show("sdf" + textBox.Text);
-    //}
 }

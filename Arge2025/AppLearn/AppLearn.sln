@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_App00", "WPF_App00\WPF_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui_App00", "Maui_App00\Maui_App00.csproj", "{6AA1B937-5339-4C12-89CF-33BAB7A69EC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCoreApi_00", "AppCoreApi_00\AppCoreApi_00.csproj", "{148308D7-F1B7-45F8-B2E0-186B84E171FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp2", "WpfApp2\WpfApp2.csproj", "{9D613708-F677-42B8-B400-7C8505FE9BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,14 @@ Global
 		{6AA1B937-5339-4C12-89CF-33BAB7A69EC2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{6AA1B937-5339-4C12-89CF-33BAB7A69EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AA1B937-5339-4C12-89CF-33BAB7A69EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148308D7-F1B7-45F8-B2E0-186B84E171FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148308D7-F1B7-45F8-B2E0-186B84E171FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148308D7-F1B7-45F8-B2E0-186B84E171FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148308D7-F1B7-45F8-B2E0-186B84E171FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D613708-F677-42B8-B400-7C8505FE9BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D613708-F677-42B8-B400-7C8505FE9BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D613708-F677-42B8-B400-7C8505FE9BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D613708-F677-42B8-B400-7C8505FE9BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

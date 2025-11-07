@@ -9,7 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="devexpress.wpf.layoutcontrol" Version="24.2.5" />
+    <None Remove="uc\WhatsApp Image 2025-05-11 at 17.36.03.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="uc\WhatsApp Image 2025-05-11 at 17.36.03.jpeg" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="WpfApp2.uc.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp2.uc"
+             mc:Ignorable="d" d:DesignWidth="800" Height="353">
+    <Grid UseLayoutRounding="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="236,295,0,0" VerticalAlignment="Top" Height="37" Width="154"/>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Image x:Name="image" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="22,10,0,0" VerticalAlignment="Top" Width="100" Source="/uc/WhatsApp Image 2025-05-11 at 17.36.03.jpeg" Stretch="Fill"/>
+
+    </Grid>
+</UserControl>
