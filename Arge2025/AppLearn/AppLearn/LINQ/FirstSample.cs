@@ -107,15 +107,13 @@ namespace AppLearn.LINQ
 
         public void GroupByUsage()
         {
-            var people = new[]
-            {
-            new            {  Name = "Vernon",  Gender = "Male",  },
-            new            {  Name = "Carrie",  Gender = "Female" },
-            new            {  Name = "Thomas",  Gender = "Male"   }};
+            var people = new[] {    new            {  Name = "Vernon",  Gender = "Male",  },
+                                    new            {  Name = "Carrie",  Gender = "Female" },
+                                    new            {  Name = "Thomas",  Gender = "Male"   }};
 
             //Method 1:
             var peopleByGender = people.GroupBy(p => p.Gender)
-                                        .Select(x => new { Gender = x.Key, People = x });
+                                       .Select(x => new { Gender = x.Key, People = x });
 
             MsgTT("==============================================================================" + Environment.NewLine);
             foreach (var row in peopleByGender)
@@ -126,9 +124,7 @@ namespace AppLearn.LINQ
                 {
                     MsgTT(@"Name:" + row2.Name + "Gender:" + row2.Gender + Environment.NewLine);
                 }
-
             }
-
         }
 
 

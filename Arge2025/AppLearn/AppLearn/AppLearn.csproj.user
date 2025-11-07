@@ -10,7 +10,7 @@
     <Compile Update="LinqFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MainForm.cs">
+    <Compile Update="AlgorithmForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MDIForm.cs">

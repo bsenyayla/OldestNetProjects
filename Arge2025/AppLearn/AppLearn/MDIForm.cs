@@ -74,7 +74,7 @@ namespace AppLearn
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -108,6 +108,20 @@ namespace AppLearn
         private void linqSamplesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LinqFrm frm = new LinqFrm(this.resultText);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void algoritimSamplesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AlgorithmForm frm = new AlgorithmForm();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void browserSamplesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BrowserForm frm = new BrowserForm();
             frm.MdiParent = this;
             frm.Show();
         }

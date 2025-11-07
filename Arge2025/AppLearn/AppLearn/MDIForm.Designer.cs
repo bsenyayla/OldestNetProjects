@@ -51,12 +51,14 @@
             aboutToolStripMenuItem = new ToolStripMenuItem();
             lINQToolStripMenuItem = new ToolStripMenuItem();
             linqSamplesToolStripMenuItem = new ToolStripMenuItem();
+            algoritimSamplesToolStripMenuItem = new ToolStripMenuItem();
             statusStrip = new StatusStrip();
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
             groupBox1 = new GroupBox();
             resultText = new TextBox();
             contextMenuStrip1 = new ContextMenuStrip(components);
+            browserSamplesToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             statusStrip.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -172,7 +174,7 @@
             // 
             contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
             contentsToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.F1;
-            contentsToolStripMenuItem.Size = new Size(168, 22);
+            contentsToolStripMenuItem.Size = new Size(180, 22);
             contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
@@ -180,7 +182,7 @@
             indexToolStripMenuItem.Image = (Image)resources.GetObject("indexToolStripMenuItem.Image");
             indexToolStripMenuItem.ImageTransparentColor = Color.Black;
             indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            indexToolStripMenuItem.Size = new Size(168, 22);
+            indexToolStripMenuItem.Size = new Size(180, 22);
             indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
@@ -188,23 +190,23 @@
             searchToolStripMenuItem.Image = (Image)resources.GetObject("searchToolStripMenuItem.Image");
             searchToolStripMenuItem.ImageTransparentColor = Color.Black;
             searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            searchToolStripMenuItem.Size = new Size(168, 22);
+            searchToolStripMenuItem.Size = new Size(180, 22);
             searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator8
             // 
             toolStripSeparator8.Name = "toolStripSeparator8";
-            toolStripSeparator8.Size = new Size(165, 6);
+            toolStripSeparator8.Size = new Size(177, 6);
             // 
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(168, 22);
+            aboutToolStripMenuItem.Size = new Size(180, 22);
             aboutToolStripMenuItem.Text = "&About ... ...";
             // 
             // lINQToolStripMenuItem
             // 
-            lINQToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { linqSamplesToolStripMenuItem });
+            lINQToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { linqSamplesToolStripMenuItem, algoritimSamplesToolStripMenuItem, browserSamplesToolStripMenuItem });
             lINQToolStripMenuItem.Name = "lINQToolStripMenuItem";
             lINQToolStripMenuItem.Size = new Size(46, 20);
             lINQToolStripMenuItem.Text = "LINQ";
@@ -212,9 +214,16 @@
             // linqSamplesToolStripMenuItem
             // 
             linqSamplesToolStripMenuItem.Name = "linqSamplesToolStripMenuItem";
-            linqSamplesToolStripMenuItem.Size = new Size(144, 22);
+            linqSamplesToolStripMenuItem.Size = new Size(180, 22);
             linqSamplesToolStripMenuItem.Text = "Linq Samples";
             linqSamplesToolStripMenuItem.Click += linqSamplesToolStripMenuItem_Click;
+            // 
+            // algoritimSamplesToolStripMenuItem
+            // 
+            algoritimSamplesToolStripMenuItem.Name = "algoritimSamplesToolStripMenuItem";
+            algoritimSamplesToolStripMenuItem.Size = new Size(180, 22);
+            algoritimSamplesToolStripMenuItem.Text = "Algorithm Samples";
+            algoritimSamplesToolStripMenuItem.Click += algoritimSamplesToolStripMenuItem_Click;
             // 
             // statusStrip
             // 
@@ -259,6 +268,13 @@
             // 
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.Size = new Size(61, 4);
+            // 
+            // browserSamplesToolStripMenuItem
+            // 
+            browserSamplesToolStripMenuItem.Name = "browserSamplesToolStripMenuItem";
+            browserSamplesToolStripMenuItem.Size = new Size(180, 22);
+            browserSamplesToolStripMenuItem.Text = "Browser Samples";
+            browserSamplesToolStripMenuItem.Click += browserSamplesToolStripMenuItem_Click;
             // 
             // MDIForm
             // 
@@ -314,6 +330,8 @@
         private GroupBox groupBox1;
         private TextBox resultText;
         private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem algoritimSamplesToolStripMenuItem;
+        private ToolStripMenuItem browserSamplesToolStripMenuItem;
     }
 }
 

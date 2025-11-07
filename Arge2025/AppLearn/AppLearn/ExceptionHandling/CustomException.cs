@@ -11,14 +11,19 @@ namespace AppLearn.ExceptionHandling
     public class CustomException : Exception
     {
         public string FilePath { get; set; }
-
         public override IDictionary Data => base.Data;
 
-        public override string? HelpLink { get => base.HelpLink; set => base.HelpLink = value; }
+        public override string? HelpLink { 
+            get => base.HelpLink; 
+            set => base.HelpLink = value; 
+        }
 
         public override string Message => base.Message;
 
-        public override string? Source { get => base.Source; set => base.Source = value; }
+        public override string? Source { 
+            get => base.Source; 
+            set => base.Source = value; 
+        }
 
         public override string? StackTrace => base.StackTrace;
 
